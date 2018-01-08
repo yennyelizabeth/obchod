@@ -1,3 +1,26 @@
 * {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* estilos index */
+
+img[alt="logoIndex"]{
+    background-image: ;
+}
+
+.grad45 {
+    background: linear-gradient( rgb(0,195,142) 35%, rgb(17, 17, 17));	
+}
+
+.vh100 {
+	height: 100vh;
+}
+
+.container-flex-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2em;
 }
