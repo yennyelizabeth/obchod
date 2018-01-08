@@ -6,12 +6,8 @@
 
 /* estilos index */
 
-img[alt="logoIndex"]{
-    background-image: ;
-}
-
-.grad45 {
-    background: linear-gradient( rgb(0,195,142) 35%, rgb(17, 17, 17));	
+.grad4 {
+    background: linear-gradient( rgb(0,195,142) 4%, rgb(17, 17, 17));
 }
 
 .vh100 {
