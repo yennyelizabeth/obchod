@@ -76,27 +76,36 @@ img[alt="logo-menu"]{
 @media screen and (min-width:991px){
 /* section-option */
 
-.phone{
-	display: none;
-}
+	.phone{
+		display: none;
+	}
 
-.desktop{
-	display: block;
-}
-img[alt="logo-menu"]{
-	height: 5vh;
-	width: 7vw;
-}
+	.desktop{
+		display: block;
+	}
+	img[alt="logo-menu"]{
+		height: 5vh;
+		width: 7vw;
+	}
 
-.subtitle-h2{
-	display: inline-block;
-	position: relative;
-	left: 12em;
-}
+	.subtitle-h2{
+		display: inline-block;
+		position: relative;
+		left: 12em;
+	}
 
-.center-ul{
-	position: relative;
-	top: 0.6em;
-}
+	.center-ul{
+		position: relative;
+		top: 0.6em;
+	}
 
+	.go-up{
+		position: relative;
+		bottom: 13em;
+	}
+
+	.align-right{
+		position: relative;
+		right: 10em;
+	}
 }
