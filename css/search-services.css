@@ -41,3 +41,10 @@ outline: 1px solid red;
   color:#00c38e;
   font-size: 50px;
 }
+
+
+@media (min-width: 992px) {
+  .title-logo{
+    margin-left: 55rem;
+  }
+}
