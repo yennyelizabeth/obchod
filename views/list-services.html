@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../css/list-service.css">
   <title>Obchod</title>
 </head>
-<body>  
+<body  >  
   <header>
     <nav class="navbar navbar-default back-navbar" role="navigation">
       <!-- despliegue en dispositivos móviles -->
@@ -42,7 +42,7 @@
     </nav>
   </header>
   <!--despliegue de cards-services  -->
-  <main class= "back-list-service">
+  <main class= "grad4">
     <h2 class="subt-letter">Lista de Tarjeta de Servicios</h2> 
     <p class="subt-letter"> Electricistas</p> 
     <div> 
@@ -52,7 +52,9 @@
           <!-- view de 1er card service -->
           <div class="col-sm-6 col-md-4"> 
             <div class="thumbnail"> 
-              <img id="imagen" src="" class="img-circle img-responsive photo-card" alt="Cinque Terre" width="304" height="236">
+                <div class="photo-card center-block" id="">
+                    <img id="imagen" src="" class="img-circle img-responsive photo-card" alt="Cinque Terre" width="304" height="236">
+                </div>
               <div class="caption"> 
                 <!-- calificación 5 estrellas -->
                 <form class="text-center">
@@ -81,8 +83,9 @@
           <!-- view de 2do card service -->
           <div class="col-sm-6 col-md-4"> 
             <div class="thumbnail"> 
-              <div class="photo-card center-block" id="photo-card-2">
-              </div>
+                <div class="photo-card center-block" id="">
+                    <img id="imagen" src="" class="img-circle img-responsive photo-card" alt="Cinque Terre" width="304" height="236">
+                </div>
               <div class="caption"> 
                 <!-- calificación 5 estrellas -->
                 <form class="text-center">
@@ -111,7 +114,8 @@
           <!-- view de 3er card service -->
           <div class="col-sm-6 col-md-4"> 
             <div class="thumbnail"> 
-              <div class="photo-card center-block" id="photo-card-3">
+              <div class="photo-card center-block" id="">
+                  <img id="imagen" src="" class="img-circle img-responsive photo-card" alt="Cinque Terre" width="304" height="236">
               </div>
               <div class="caption"> 
                 <!-- calificación 5 estrellas -->
@@ -142,6 +146,23 @@
       </div> 
     </div> 
   </main>
+  <!--Sección de Publicaciones -->
+  <section class="grad4 app ">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div id="title">
+              <b>NewsFeed</b>
+            </div>
+            <textarea class="form-control" id="textarea"></textarea>
+            <button id="btn" type="submit" class="btn btn-primary">Publicar</button>
+            <div id="container-to-do"></div>
+          </div>
+        </div>
+  
+      </div>
+    </section>
+
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="../js/data.js"></script>
