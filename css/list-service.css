@@ -20,10 +20,19 @@
   background-image: url('../assets/images/list-service/electricista-1.jpg');
 }
 
+#photo-card-2{
+  background-image: url('../assets/images/list-service/electricista-2.jpg');
+}
+
+#photo-card-3{
+  background-image: url('../assets/images/list-service/electricista-3.jpg');
+}
+
 /************************** backgrounds *************************/
 .back-navbar{
   background-color: black;
   /*height: 11vh;*/
+  margin-bottom: 0;
 }
 .back-list-service {
   background-color: #00c38e ;
@@ -37,6 +46,12 @@
 
 .activa{
 	background-color: #00c38e;
+}
+
+/******************** imagenes header ***************************/
+
+.logo-size {
+  height: 4vh;
 }
 
 /******************** calificación 5 estrellas ******************/
