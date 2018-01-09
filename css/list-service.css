@@ -1,0 +1,10 @@
+* {
+   box-sizing: border-box;
+   margin : 0;
+}
+
+.background-navbar{
+    background-color: black;
+    /*height: 11vh;*/
+    
+  }
