@@ -4,8 +4,7 @@
     padding: 0px;
 }
 
-/* estilos index */
-
+/* clases reutilizables */
 .grad4 {
     background: linear-gradient( rgb(0,195,142) 4%, rgb(17, 17, 17));
 }
@@ -21,14 +20,46 @@
 	padding: 2em;
 }
 
-main h1{
-	color: black;
+/* estilos index */
+
+main h1,.section-option h3{
+	color: #000000;
+}
+
+/* sectionn-option */
+.section-option i{
+	color: #00c38e;
+}
+
+img[alt="logo-menu"]{
+	height: 6vh;
+	width: 20vw;
+}
+
+.subtitle-h2-h2{
+	color: dimgrey;
+}
+
+.subtitle-h2-h2:hover{
+	color: #ffffff;
 }
 
 @media screen and (min-width:991px){
-	/* index */
-	img[alt="logoIndex"]{
-		position: relative;
-		margin: 0 auto;
-	}
+/* section-option */
+img[alt="logo-menu"]{
+	height: 5vh;
+	width: 7vw;
+}
+
+.subtitle-h2{
+	display: inline-block;
+	position: relative;
+	left: 12em;
+}
+
+.center-ul{
+	position: relative;
+	top: 0.6em;
+}
+
 }
