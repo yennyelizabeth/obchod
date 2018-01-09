@@ -42,6 +42,9 @@
 .title-list-service {
   color: white;
   text-align: center;
+  position:relative;
+  left: 200px;
+  top: -50px;
 }
 
 .activa{
@@ -52,6 +55,16 @@
 
 .logo-size {
   height: 4vh;
+}
+
+/************************* letras********************************/
+.subt-letter {
+  text-align: center;
+  margin: 0;
+}
+
+.letter-name ,.letter-resum{
+  margin: 0;
 }
 
 /******************** calificación 5 estrellas ******************/
