@@ -4,6 +4,22 @@
   padding: 0;
 }
 
+/************************** photos card *************************/
+.photo-card{
+  height: 30vh;
+  width: 40vh;
+  /* los siguientes valores son independientes del tamaño del círculo */
+  background-repeat: no-repeat;
+  background-position: center center center center;
+  border-radius: 100%;
+  background-size: 100% auto;
+
+}
+
+#photo-card-1{
+  background-image: url('../assets/images/list-service/electricista-1.jpg');
+}
+
 /************************** backgrounds *************************/
 .back-navbar{
   background-color: black;
