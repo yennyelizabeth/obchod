@@ -1,10 +1,24 @@
 * {
-   box-sizing: border-box;
-   margin : 0;
+  box-sizing: border-box;
+  margin : 0;
+  padding: 0;
 }
 
-.background-navbar{
-    background-color: black;
-    /*height: 11vh;*/
-    
-  }
+/* backgrounds */
+.back-navbar{
+  background-color: black;
+  /*height: 11vh;*/
+}
+.back-list-service {
+  background-color: #00c38e ;
+  height: 100vh;
+}
+
+.title-list-service {
+  color: white;
+  text-align: center;
+}
+
+.activa{
+	background-color: #00c38e;
+}
