@@ -5,6 +5,7 @@
   }
   
   /************************** photos card *************************/
+  
   .photo-card{
     height: 30vh;
     width: 40vh;
@@ -34,6 +35,11 @@
     /*height: 11vh;*/
     margin-bottom: 0;
   }
+
+  .grad4 {
+    background: linear-gradient( rgb(0,195,142) 4%, rgb(17, 17, 17));
+  }
+
   .back-list-service {
     background-color: #00c38e ;
     height: 200vh;
@@ -133,3 +139,49 @@
     font-size: 2.0em;
   }
   
+    
+  /******************** Publicaciones ******************/
+
+  .app{
+    margin-top: 20px;
+  }
+  #title{
+    background-color: #00c38e;
+    font-size: 30px;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  textarea{
+    border-radius: 1em;
+    display: block;
+    margin: 1em auto;
+    width: 90%;
+  }
+
+  .new{
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    border: 0.1em solid #00c38e;
+    height: auto;
+    margin: 15px 0;
+    padding: 15px 40px 15px 15px;
+    position: relative;
+    width: 100%;
+    word-wrap: break-word;
+  }
+
+  #container-to-do{
+    margin: 15px 0;
+  }
+  .labeled{
+    text-decoration:line-through;
+  }
+  .icon{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 40%;
+  }

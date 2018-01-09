@@ -51,6 +51,51 @@
             <img src="../assets/images/electricista.jpg" alt="electricista" class="center-block">
           </figure>
         </div>
+        <div class="col-xs-4">
+          <button type="button" class="btn btn-default btn-call center-block" href="#iniciar" data-toggle="modal" id="call"><i class="fa fa-phone" aria-hidden="true"></i>llamar</button>
+          <button type="button" class="btn btn-default btn-call center-block hide" href="#iniciar" data-toggle="modal" id="number">3333857546</button>
+        </div>
+        <!--modal-->
+        <div class="modal fade" id="iniciar">
+          <div class="modal-dialog" role="document" >
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center">Bienvenido a ObChOd</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <!--entrada para el nombre-->
+                  <div class="col-xs-6">
+                    <div class="form-group">
+                      <div class="input-group">
+                        <div class="input-group-addon"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></div>
+                        <input type="text" class="form-control" id="first-name" placeholder="First name" required>
+                      </div>
+                    </div>
+                  </div>
+                  <!--entrada para el apellido-->
+                  <div class="col-xs-6">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="last-name"  placeholder="Last name" required>
+                    </div>
+                  </div>
+                </div>
+                <!--entrada para el correo-->
+                <div class="form-group">
+                  <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+                    <input type="email" class="form-control" id="email" placeholder="Email" required>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="login">Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--finaliza el modal-->
       </div>
     </div>
     <div class="container">
@@ -63,32 +108,6 @@
         </div>
       </div>
     </div>
-    <!--seccion para subi su portafolio-->
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="white text-center">Para que te conozcan más, llena tu portafolio con tus trabajos</h3>
-          <div id="preview" class="thumbnail">
-            <a href="#" id="file-select" class="btn btn-default">Elegir archivo</a>
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4="/>
-          </div>
-          <span class="alert alert-info" id="file-info">No hay archivo aún</span>
-          <form id="file-submit" enctype="multipart/form-data">
-            <input id="file" name="file" type="file"/>
-          </form>
-          <a href="#" class="btn btn-primary center-block" id="file-save">Guardar</a>
-        </div>
-      </div>
-      <div class="row">
-          <div class="col-xs-12">
-          <div class="" id="imagen">
-
-          </div>
-          </div>
-      </div>
-    </div>
-
-
   </section>
 
 
