@@ -12,17 +12,14 @@ outline: 1px solid red;
   background-color: black;
   margin-bottom: 0;
 }
-.nav-head{
-  /*height: 70px;*/
-}
 
 .title-logo{
   color:white;
   width: 50%;
   margin-left: 15rem;
 }
-.gray{
-  background-color: #00c38e;
+.background{
+  background: linear-gradient( rgb(0,195,142) 4%, rgb(17, 17, 17));
   height: 150vh;
 }
 .mrgin-top{
