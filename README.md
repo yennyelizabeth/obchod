@@ -6,7 +6,7 @@ PRODUCTO FINAL: "Red Social Obchod"
 - Problema o Requerimiento: Ausencia de una Red Social exclusiva para ofertar oficios, demandar servicios y
 anunciar productos relacionados.
 
-![Inicio](assets/images/readme/problema-contacto-oficio.jpg)
+![Inicio](assets/images/readme/problema-contacto-oficios.jpg)
 
 GRUPO: NETWORKING GIRLS
 ------------------------
@@ -39,8 +39,18 @@ proveedores que ofertan sus productos relacionados.
 ## ANEXOS
 - Cuestionario de Entrevista Presencial a Electricista
 - Cuestionario de Encuesta Online a Posibles Clientes :
-** Cantidad: 27 personas encuestadas.
-** Link- https://goo.gl/forms/7RBTRfiR6nP1VR2v2
+= Cantidad: 27 personas encuestadas.
+= Link- https://goo.gl/forms/7RBTRfiR6nP1VR2v2
 - Cuestionario de Entrevista Online a Posibles Proveedores
 ![Inicio](assets/images/readme/...png)
 
+## ETAPAS DE IMPLEMENTACIÓN DEL PROYECTO
+
+### ETAPA USER EXPERIENCIE - UX
+#### Historias: 
+ ![Inicio](assets/images/readme/historia-electricista.png)
+ 
+
+
+ María(Posible Cliente)
+ 
