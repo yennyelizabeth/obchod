@@ -79,13 +79,14 @@ En la presente versión solo se esta considerando la funcionalidad para un ofici
 
 ## ANEXOS
 - Modelo Cuestionario de Entrevista Presencial a Electricista
-  Link -
-  ![Inicio](assets/images/readme/grupo-question-1.png)
-- Modelo Cuestionario de Encuesta Online a Posibles Clientes
+  ![Preguntas](assets/images/readme/grupo-question-1.png "Entrevistando a Electricista")
+  ![Respuestas](assets/images/readme/grupo-respuestas-clientes-.png "Respuestas de Electricista")
+
+- Modelo Cuestionario de Encuesta a Posibles Clientes
   [Encuesta]( https://goo.gl/forms/7RBTRfiR6nP1VR2v2 "Encuestando a Posibles Clientes").
 
 - Modelo Cuestionario de Entrevista Presencial a Posibles Proveedores
-![Inicio](assets/images/readme/...png  "Modelo Entrevista Presencial a Posibles Proveedores")
+  ![Inicio](assets/images/readme/...png  "Modelo Entrevista Presencial a Posibles Proveedores")
 
 ## PLANEACIÓN DEL PROYECTO
 ###
