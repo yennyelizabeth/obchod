@@ -1,31 +1,34 @@
-PRODUCTO FINAL: "Red Social Obchod"
+PRODUCTO FINAL: "Red Social"
 ======================================
+## SQUAD: LAS CAPUCCINAS
 
-![Inicio](assets/images/readme/...jpg)
-
-- Problema o Requerimiento: Ausencia de una Red Social exclusiva para ofertar oficios, demandar servicios y
-anunciar productos relacionados.
-
-![Inicio](assets/images/readme/innovando-lo-tradicional.png)
-
-GRUPO: NETWORKING GIRLS
-------------------------
-
-## PROYECTO: Red Social Obchod
-
-# ![Markdown Here logo](assets/images/logo1.png) Markdown Here
-![Inicio](assets/images/logo1.png)
-
-## BREVE EXPLICACION: 
-- Obchod, es una Red Social, con accesibilidad vía web ( link gh-pages ) y mobile, que tiene la finalidad de facilitar los puntos de contactos entre: personas que tienen un oficio, clientes que solicitan  servicios y proveedores que ofertan sus productos relacionados.
-
+## GRUPO: NETWORKING GIRLS
 
 ## INTEGRANTES:  
 - Lara Aspilcueta, Betsy Dessire - betsy_dessire@hotmail.com
 - Quiñones Jauregui,Yenny Elizabeth - yenny.quinones.jauregui@gmail.com
 - Yauri , Melissa Rossmery - 
 
+## PROBLEMA
+- Problema o Requerimiento: Ausencia de una Red Social exclusiva para ofertar oficios, demandar servicios y
+anunciar productos relacionados.
+
+![Inicio](assets/images/readme/innovando-lo-tradicional.png)
+
+## SOLUCIÓN : RED SOCIAL OBCHOD
+
+### LOGO
+![Markdown Here logo](assets/images/logo2.png) Obchod Here)
+![Inicio](assets/images/logo1.png)
+
+### FAST VIEW
+![Inicio](assets/images/readme/innovando.png)
+
+## BREVE EXPLICACION: 
+- Obchod, es una Red Social, con accesibilidad vía web ( link gh-pages ) y mobile, que tiene la finalidad de facilitar los puntos de contactos entre: personas que tienen un oficio, clientes que solicitan  servicios y proveedores que ofertan sus productos relacionados.
+
 ## PROTOTIPO :
+### GLOBAL VIEW
 ----------------------
 ![Inicio](assets/images/readme/index.png)
 ![Inicio](assets/images/readme/register.png)
@@ -80,7 +83,7 @@ se han identificado sus necesidades.
 - Falta de punto de contacto entre personas que tienen un oficio, clientes y proveedores
 - Ausencia de una Red Social de Oficios.
 
-### PROFUNDIZANDO - CONOCIENDO MÁS
+#### PROFUNDIZANDO - CONOCIENDO MÁS
 Se entabló una conversación más profunda de los entrevistados, aparte de los cuestionarios, 
 y se pudo conocer sus historias.
 ##### Historias: 
@@ -96,16 +99,39 @@ reducir el tiempo de contacto| recibir , calificar y recomendar un buen servicio
 conocer los anuncios de los proveedores rápidamente|ubicar rápidamente|que conozcan rápidamente la información de sus productos.
 
 
-### INVESTIGANDO
-#### Oficio Definición
-#### Oficio Electricidad
-#### Páginas Webs y Redes Sociales actuales
+#### INVESTIGANDO
+##### Oficio Definición
+##### Oficio Electricidad
+##### Páginas Webs y Redes Sociales actuales
 - Facebook
 - Twitter
 - Linkdln
 - Aptitus.com
 - Computrabajo.com
 - Laborum.com
-#### Estadísticas 
+##### Estadísticas 
+
+#### SKETCHS
+
+#### PRODUCCIÓN
+
+### ETAPA FRONT END
+
+#### TECNOLOGÍA 
+- Css
+- Javascript
+- Jquery
+- Boostrap
+- Html
+- Markdown
+
+## CONCLUSIONES
+
+## FEEDBACK
+- Comunicarse con el grupo a los emails señalados, todo feedback será bien recibido.
+
+
+
+
   
 
