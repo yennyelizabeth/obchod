@@ -68,7 +68,7 @@ providers [0,1] = 'Maestro'; /* etiqueta */
 providers [0,2] = 'www.'; /* edad */
 
 
-products [0,0] = 'O00001'; /* correlative-identificador */
-products [0,1] = '../assets/images/list-service/port-1-1.jpg'; /* trabajo 1  */
-products [0,2] = '../assets/images/list-service/port-1-2.jpg'; /* trabajo 2  */
+/*products [0,0] = 'O00001'; /* correlative-identificador
+products [0,1] = '../assets/images/list-service/port-1-1.jpg'; /* trabajo 1
+products [0,2] = '../assets/images/list-service/port-1-2.jpg'; /* trabajo 2
 products [0,3] = '../assets/images/list-service/port-1-3.jpg'; /* trabajo 3  */

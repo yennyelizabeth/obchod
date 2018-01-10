@@ -1,9 +1,5 @@
 $(document).ready(function() {
-  $('#login').click(function() {
-    console.log('estas logeado');
-    $('#number').removeClass('hide');
-    $('#call').addClass('hide');
-  });
+
   /* seccion para subir las fotos*/
   $('#preview').hover(function() {
     /* aparece el btn de subir foto*/

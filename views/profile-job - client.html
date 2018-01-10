@@ -43,15 +43,16 @@
     </nav>
   </header>
   <section class="gradient">
+    <a class="navbar-brand" href="list-services.html"><i class="fa fa-home" aria-hidden="true"></i></i></a>
     <!--sección foto-->
     <div class="container">
       <div class="row">
-        <div class="col-xs-8">
+        <div class="col-xs-12">
           <figure>
-            <img src="../assets/images/electricista.jpg" alt="electricista" class="center-block">
+            <img src="../assets/images/list-service/electricista-2.jpg" alt="electricista" class="center-block img-circle">
           </figure>
         </div>
-        <div class="col-xs-4">
+        <div class="col-xs-12">
           <button type="button" class="btn btn-default btn-call center-block" href="#iniciar" data-toggle="modal" id="call"><i class="fa fa-phone" aria-hidden="true"></i>llamar</button>
           <button type="button" class="btn btn-default btn-call center-block hide" href="#iniciar" data-toggle="modal" id="number">3333857546</button>
         </div>
@@ -92,6 +93,7 @@
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal" id="login">Login</button>
               </div>
+              </div>
             </div>
           </div>
         </div>
@@ -102,21 +104,56 @@
       <div class="row">
         <div class="col-xs-12">
           <h3 class="text-center white">Datos personales</h3>
-          <div class="dates">
-            <h1>sjsjs</h1>
+          <div class="dates" id="dates">
+
           </div>
         </div>
       </div>
     </div>
+
+          <section class='rating-widget'>
+
+            <!-- Rating Stars Box -->
+            <div class='rating-stars text-center'>
+              <ul id='stars'>
+                <li class='star' title='Poor' data-value='1'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li class='star' title='Fair' data-value='2'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li class='star' title='Good' data-value='3'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li class='star' title='Excellent' data-value='4'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+                <li class='star' title='WOW!!!' data-value='5'>
+                  <i class='fa fa-star fa-fw'></i>
+                </li>
+              </ul>
+            </div>
+
+            <div class='success-box'>
+              <div class='clearfix'></div>
+              <img alt='tick image' width='32' src='https://i.imgur.com/3C3apOp.png'/>
+              <div class='text-message'></div>
+              <div class='clearfix'></div>
+            </div>
+
+
+
+        </div>
+
+      </div>
+
+    </div>
   </section>
-
-
-
-
-
-    <script src=""></script>
+  <script src=""></script>
     <script src="../vendors/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../js/profile-job-client.js"></script>
       <script type="text/javascript" src="../js/profile-job.js"></script>
+        <script type="text/javascript" src="../js/data.js"></script>
 </body>
 </html>
