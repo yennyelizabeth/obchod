@@ -12,12 +12,15 @@ $( document ).ready(function() {
   var $idResum = $('#resum');
 
   /* extraer data */
+  /*
   $idName.text(dataPeople[0, 1]);
   $idResum.text(dataPeople[0, 5]);
   $('#imagen').attr('src', url);
   $('#imagen').attr('alt', 'Imagen no disponible');
   $('#imagen').attr('title', 'Imagen de carga');
+*/
 
+  /* publicaciones */
   var btn = $('#btn');
 	// btn.prop("disabled", true);
 	var textarea = $('#textarea');
@@ -35,7 +38,8 @@ $( document ).ready(function() {
 		else {
 			// btn.prop("disabled", true);
 		}
-	}
+  }
+  
 	btn.click(function() {
 		addTask();
 		textarea.val('');
@@ -46,33 +50,27 @@ $( document ).ready(function() {
 		var containerToDo = $('#container-to-do');
     var newTask = $('<div>');
     var label = $('<label>');
-		var check = $('<input>');
+		/*var check = $('<input>');*/
     var text = $(document.createTextNode(taskContent));
     var icon = $('<i>');
 
 		newTask.addClass('new');
-    newTask.addClass('checkbox');
-    
-    containerToDo.append(newTask);
-    
-		check.attr('type','checkbox');
-		label.append(check);
-		newTask.append(label);
-		label.append(text);
-	
-		icon.addClass('glyphicon glyphicon-trash icon');
-		newTask.append(icon);
-    
+		newTask.addClass('checkbox');
+		containerToDo.append(newTask);
+	/*	check.attr('type','checkbox');*/
+/*		label.append(check);*/
+		newTask.append(label);	
+		label.append(text);	
+		icon.addClass('glyphicon glyphicon-point icon');
+		newTask.append(icon);    
     textarea.val('')
 
-		check.click(function() {
+		/*check.click(function() {
 			labeledTask();
-    });
-    
+		});*/
 		function labeledTask(){
 			label.toggleClass('labeled');
-    }
-    
+		}
 		icon.click( function() {
 			deleteTask();
     });
