@@ -49,8 +49,14 @@ anunciar productos relacionados.
 
 ## ANEXOS
 - Modelo Cuestionario de Entrevista Presencial a Electricista
+<<<<<<< HEAD
   Link -
 - Modelo Cuestionario de Encuesta Online a Posibles Clientes
+=======
+  Link - 
+  ![Inicio](assets/images/readme/grupo-question-1.png)
+- Modelo Cuestionario de Encuesta Online a Posibles Clientes 
+>>>>>>> 574813cf3bb2d67c4e73a3705947542155137252
   [Encuesta]( https://goo.gl/forms/7RBTRfiR6nP1VR2v2 "Encuestando a Posibles Clientes").
 
 - Modelo Cuestionario de Entrevista Presencial a Posibles Proveedores
