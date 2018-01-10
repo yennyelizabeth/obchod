@@ -3,8 +3,10 @@ PRODUCTO FINAL: "Red Social Obchod"
 
 ![Inicio](assets/images/readme/...jpg)
 
-- Problema o Requerimiento:
-![Inicio](assets/images/readme/...jpg)
+- Problema o Requerimiento: Ausencia de una Red Social exclusiva para ofertar oficios, demandar servicios y
+anunciar productos relacionados.
+
+![Inicio](assets/images/readme/problema-contacto-oficio.jpg)
 
 GRUPO: NETWORKING GIRLS
 ------------------------
