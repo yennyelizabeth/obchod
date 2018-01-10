@@ -4,17 +4,14 @@
     padding: 0;
   }
   
-  /************************** photos card *************************/
-  
+  /* photos card */
   .photo-card{
     height: 30vh;
     width: 40vh;
-    /* los siguientes valores son independientes del tamaño del círculo */
     background-repeat: no-repeat;
     background-position: center center center center;
     border-radius: 100%;
-    background-size: 100% auto;
-  
+    background-size: 100% auto;  
   }
   
   #photo-card-1{
@@ -29,7 +26,7 @@
     background-image: url('../assets/images/list-service/electricista-3.jpg');
   }
   
-  /************************** backgrounds *************************/
+  /* backgrounds */
   .back-navbar{
     background-color: black;
     /*height: 11vh;*/
@@ -57,13 +54,13 @@
       background-color: #00c38e;
   }
   
-  /******************** imagenes header ***************************/
+  /* imagenes header */
   
   .logo-size {
     height: 4vh;
   }
   
-  /************************* letras********************************/
+  /* letras */
   .subt-letter {
     text-align: center;
     margin: 0;
@@ -73,7 +70,7 @@
     margin: 0;
   }
   
-  /******************** calificación 5 estrellas ******************/
+  /* calificación 5 estrellas */
   
   label{ 
     color:grey;
@@ -137,19 +134,26 @@
   
   .size-star { 
     font-size: 2.0em;
+  }  
+ 
+  /* Publicaciones */
+  .publications{
+    margin-top: 1em;
   }
-  
-    
-  /******************** Publicaciones ******************/
 
-  .app{
-    margin-top: 20px;
-  }
-  #title{
+  .title{
     background-color: #00c38e;
     font-size: 30px;
-    padding: 15px 0;
+    padding:  0;
     text-align: center;
+    width: 100%;
+  }
+
+  .subtitle{
+    background-color: #416bc7e3;
+    color: blanchedalmond;
+    font-size: 20px;
+    padding:  0;
     width: 100%;
   }
 
@@ -162,18 +166,18 @@
 
   .new{
     background-color: white;
-    display: block;
     border-radius: 5px;
     border: 0.1em solid #00c38e;
+    display: block;
     height: auto;
     margin: 15px 0;
-    padding: 15px 40px 15px 15px;
+    padding: 10px 30px 10px 10px;
     position: relative;
     width: 100%;
     word-wrap: break-word;
   }
 
-  #container-to-do{
+  #container-1{
     margin: 15px 0;
   }
   .labeled{
@@ -185,3 +189,11 @@
     right: 10px;
     top: 40%;
   }
+
+/* clase reutilizable para icono*/
+.box{
+  border:1px solid #ced2d3;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
