@@ -12,6 +12,8 @@ GRUPO: NETWORKING GIRLS
 ------------------------
 
 ## PROYECTO: Red Social Obchod
+
+# ![Markdown Here logo](assets/images/logo1.png) Markdown Here
 ![Inicio](assets/images/logo1.png)
 
 ## BREVE EXPLICACION: 
@@ -38,9 +40,10 @@ GRUPO: NETWORKING GIRLS
 - Modelo Cuestionario de Entrevista Presencial a Electricista
   Link - 
 - Modelo Cuestionario de Encuesta Online a Posibles Clientes 
-  Link- https://goo.gl/forms/7RBTRfiR6nP1VR2v2
+  [Encuesta]( https://goo.gl/forms/7RBTRfiR6nP1VR2v2 "Encuestando a Posibles Clientes").
+  
 - Modelo Cuestionario de Entrevista Presencial a Posibles Proveedores
-![Inicio](assets/images/readme/...png)
+![Inicio](assets/images/readme/...png  "Modelo Entrevista Presencial a Posibles Proveedores")
 
 ## PLANEACIÓN DEL PROYECTO
 ### 
@@ -86,6 +89,13 @@ y se pudo conocer sus historias.
  ![Inicio](assets/images/readme/historia-proveedor.png)
 
 ##### Metas y Deseos ( electricista, cliente y proveedor)
+Electricista |    Cliente   | Proveedor
+------------ | -------------|--------------
+Aumentar contactos con clientes | visualizar perfiles|más clientes
+reducir el tiempo de contacto| recibir , calificar y recomendar un buen servicio|
+conocer los anuncios de los proveedores rápidamente|ubicar rápidamente|que conozcan rápidamente la información de sus productos.
+
+
 - Electricista, tiene como meta: aumentar contactos con clientes, reducir el tiempo de contacto
   y conocer los anuncios de los proveedores rápidamente.
 - Cliente, tiene como meta: visualizar perfiles, recibir , calificar y recomendar un buen servicio,

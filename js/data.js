@@ -20,7 +20,6 @@ portafolio [0,1] = '../assets/images/list-service/port-1-1.jpg'; /* trabajo 1  *
 portafolio [0,2] = '../assets/images/list-service/port-1-2.jpg'; /* trabajo 2  */
 portafolio [0,3] = '../assets/images/list-service/port-1-3.jpg'; /* trabajo 3  */
 
-
 /* Persona Nro 2 */
 /* Datos Personales */
 dataPeople [1,0] = 'O00002'; /* correlative-identificador */
@@ -55,20 +54,43 @@ dataPeople [2,8] = '25'; /* nro de likes */
 dataPeople [2,9] = '3'; /* nro de oficios */
 dataPeople [2,10] = '4'; /* nro de calificaciones */
 
-/*__ Fotos de Portafolio__*/
+/* Fotos de Portafolio */
 portafolio [2,0] = 'O00002'; /* correlative-identificador */
 portafolio [2,1] = '../assets/images/list-service/port-3-1.jpg'; /* trabajo 1  */
 portafolio [2,2] = '../assets/images/list-service/port-3-2.jpg'; /* trabajo 2  */
 portafolio [2,3] = '../assets/images/list-service/port-3-3.jpg'; /* trabajo 3  */
 
-
 /* Proveedor Nro 1 */
 providers [0,0] = 'P00001'; /* correlative-identificador */
-providers [0,1] = 'Maestro'; /* etiqueta */
-providers [0,2] = 'www.'; /* edad */
+providers [0,1] = 'Maestro'; /* name */
+providers [0,2] = 'http://www.maestro.com.pe/'; /* url */
+providers [0,3] = '../assets/images/list-service/providers/maestro.png'; /* logo */
+
+ads [0,0] = 'P00001'; /* correlative-identificador */
+ads [0,1] = '../assets/images/list-service/providers/ads/ads-1-1.jpg'; /* anuncio 1  */
+ads [0,2] = '../assets/images/list-service/providers/ads/ads-1-2.jpg'; /* anuncio 2  */
+ads [0,3] = '../assets/images/list-service/providers/ads/ads-1-3.jpg'; /* anuncio 3  */
+
+/* Proveedor Nro 2 */
+providers [1,0] = 'P00002'; /* correlative-identificador */
+providers [1,1] = 'Sodimac'; /* name */
+providers [1,2] = 'http://www.sodimac.com.pe/'; /* url */
+providers [1,3] = '../assets/images/list-service/providers/sodimac.png'; /* logo */
+
+ads [1,0] = 'P00002'; /* correlative-identificador */
+ads [1,1] = '../assets/images/list-service/providers/ads/ads-2-1.jpg'; /* anuncio 1 */
+ads [1,2] = '../assets/images/list-service/providers/ads/ads-2-2.jpg'; /* anuncio 2 */
+ads [1,3] = '../assets/images/list-service/providers/ads/ads-2-3.jpg'; /* anuncio 3 */
 
 
-products [0,0] = 'O00001'; /* correlative-identificador */
-products [0,1] = '../assets/images/list-service/port-1-1.jpg'; /* trabajo 1  */
-products [0,2] = '../assets/images/list-service/port-1-2.jpg'; /* trabajo 2  */
-products [0,3] = '../assets/images/list-service/port-1-3.jpg'; /* trabajo 3  */
+/* Proveedor Nro 3 */
+providers [2,0] = 'P00003'; /* correlative-identificador */
+providers [2,1] = 'Promart'; /* name */
+providers [2,2] = 'http://www.promart.pe/'; /* url */
+providers [2,3] = '../assets/images/list-service/providers/maestro.png'; /* logo */
+
+ads [2,0] = 'P00003'; /* correlative-identificador */
+ads [2,1] = '../assets/images/list-service/providers/ads/ads-3-1.jpg'; /* anuncio 1  */
+ads [2,2] = '../assets/images/list-service/providers/ads/ads-3-2.jpg'; /* anuncio 2  */
+ads [2,3] = '../assets/images/list-service/providers/ads/ads-3-3.jpg'; /* anuncio 3  */
+
