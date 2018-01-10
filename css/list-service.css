@@ -189,3 +189,11 @@
     right: 10px;
     top: 40%;
   }
+
+/* clase reutilizable para icono*/
+.box{
+  border:1px solid #ced2d3;
+  background-color: white;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
