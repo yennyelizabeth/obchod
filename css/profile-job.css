@@ -19,6 +19,10 @@
   color: white;
   font-size: 30px;
 }
+
+.user{
+  float: right;
+}
 img[alt="electricista"]{
   width: 80%;
   margin-top: 2rem;
@@ -113,4 +117,7 @@ input[type=file] {
 }
 .imagen{
   height: 50%;
+}
+.black{
+  color: black;
 }

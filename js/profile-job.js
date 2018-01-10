@@ -1,16 +1,6 @@
 $(document).ready(function() {
   /* seccion para subir las fotos*/
-  $('#preview').hover(function() {
-    /* aparece el btn de subir foto*/
-    $(this).find('a').fadeIn();
-  }, function() {
-    /* desaparece el btn de subir foto*/
-    $(this).find('a').fadeOut();
-  });
-  $('#file-select').on('click', function(event) {
-    event.preventDefault();
-    $('#file').click();
-  });
+
   /* funcion para subir la imagen*/
   $('input[type=file]').change(function() {
     /* se utiliza en firefox, si se usa en chrome el resultado es C:\fakepath\descarga.png*/
