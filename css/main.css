@@ -20,6 +20,10 @@
 	padding: 2em;
 }
 
+.icon {
+	color: #ffffff;
+}
+
 .phone {
 	display: block;
 }

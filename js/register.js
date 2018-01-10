@@ -8,25 +8,31 @@ $(document).ready(function() {
   var $txtLastName = $('#txtLastName');
   var $btnLogin = $('#btnLogin');
   var $btnNew = $('#btnNew');
+  var $txtNameModal = $('#txtNameModal');
+  var $txtLastNameModal = $('#txtLastNameModal');
+  var $txtEmailModal = $('#txtEmailModal');
+  var $txtPasswordModal = $('#txtPasswordModal');
+  var $btnCreate = $('#btnCreateModal');
+  var $validateNameModal = false;
+  var $validateLastNameModal = false;
+  var $validateEmailModal = false;
+  var $validatePasswordModal = false;
   var $validateEmail = false;
   var $validatePassword = false;
   var $validateNewEmail = false;
   var $validateNewPassword = false;
   var $validateName = false;
   var $validateLastName = false;
-
   var $txtEmail1 = $('#txtEmail1');
   var $txtPassword1 = $('#txtPassword1');
   var $btnLogin1 = $('#btnLogin1');
   var $validateEmail1 = false;
   var $validatePassword1 = false;
 
-  var localName = '';
-  var localLastName = '';
-  var localEmail = '';
 
   $btnLogin.attr('disabled', true);
   $btnLogin1.attr('disabled', true);
+  $btnCreate.attr('disabled', true);
 
   // eventos para el login
   $txtEmail.on('input', function(event) {
@@ -34,6 +40,7 @@ $(document).ready(function() {
     var regExpre = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
     if (regExpre.test($(this).val())) {
       $validateEmail = true;
+      // almacenando el email
       active();
     } else {
       $validateEmail = false;
@@ -138,6 +145,60 @@ $(document).ready(function() {
     window.location.href = '../views/list-services.html';
   });
 
+  // registro modal
+  $txtNameModal.on('input', function(event) {
+    event.preventDefault();
+    if ($(this).val().length > 2) {
+      $validateNameModal = true;
+      NewActive();
+    } else {
+      $validateNameModal = false;
+      $btnCreate.attr('disabled', true);
+    }
+  });
+	
+  $txtLastNameModal.on('input', function(event) {
+    event.preventDefault();
+    if ($(this).val().length > 3) {
+      $validateLastNameModal = true;
+      activeModal();
+    } else {
+      $validateLastNameModal = false;
+      $btnCreate.attr('disabled', true);
+    }
+  });
+	
+  $txtEmailModal.on('input', function(event) {
+    event.preventDefault();
+    var regExpre = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
+    if (regExpre.test($(this).val())) {
+      $validateEmailModal = true;
+      // revisar
+      localStorage.setItem = ('email', $txtEmailModal);
+      console.log(localStorage.email);
+      activeModal();
+    } else {
+      $validateEmailModal = false;
+      $btnCreate.attr('disabled', true);
+    }
+  });
+	
+  $txtPasswordModal.on('input', function(event) {
+    event.preventDefault();
+    if ($(this).val().length > 6) {
+      $validatePasswordModal = true;
+      activeModal();
+    } else {
+      $validatePasswordModal = false;
+      $btnCreate.attr('disabled', true);
+    }
+  });
+
+  $btnCreate.on('click', function(event) {
+    event.preventDefault();
+    window.location.href = '../views/list-services.html';
+  });
+
   // funciones reutilizables
   function active() {
     if ($validateEmail && $validatePassword) {
@@ -156,6 +217,12 @@ $(document).ready(function() {
       $btnNew.attr('disabled', false);
     }
   }
-	
+  
+  function activeModal() {
+    if($validateNameModal && $validateLastNameModal && $validateEmailModal && $validatePasswordModal) {
+      $btnCreate.attr('disabled', false);
+    }
+  }
+
 });
 
