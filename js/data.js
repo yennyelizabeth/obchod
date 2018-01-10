@@ -64,7 +64,7 @@ portafolio [2,3] = '../assets/images/list-service/port-3-3.jpg'; /* trabajo 3  *
 
 /* Proveedor Nro 1 */
 providers [0,0] = 'P00001'; /* correlative-identificador */
-providers [0,1] = 'Maestro'; /* name */
+providers [0,1] = 'Maestro'; /* etiqueta */
 providers [0,2] = 'www.'; /* edad */
 
 
