@@ -1,12 +1,12 @@
 * {
-    font-family: 'Poppins', sans-serif;
-    margin: 0px;
-    padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* clases reutilizables */
 .grad4 {
-    background: linear-gradient( rgb(0,195,142) 4%, rgb(17, 17, 17));
+  background: linear-gradient( rgb(0,195,142) 4%, rgb(17, 17, 17));
 }
 
 .vh100 {
@@ -75,6 +75,25 @@ img[alt="logo-menu"]{
 	color: #ffffff;
 	display: inline-block;
 	background-color: #1e533c;
+}
+
+/* section-profile */
+
+
+.img-profile{
+	height: 7vh;
+	width: 7vw;
+	/* outline: 1px solid red; */
+}
+
+.section-profile figure{
+	max-width: 30%;
+	/* outline: 1px solid white; */
+}
+
+.description{
+	z-index: 20;
+	margin-top: 8em;
 }
 
 @media screen and (min-width:991px){
