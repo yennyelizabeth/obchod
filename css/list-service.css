@@ -3,7 +3,7 @@
     margin : 0;
     padding: 0;
   }
-  
+
 /* PHOTOS CARD*/
 .photo-card{
   height: 30vh;
@@ -11,21 +11,21 @@
   background-repeat: no-repeat;
   background-position: center center center center;
   border-radius: 100%;
-  background-size: 100% auto;  
+  background-size: 100% auto;
 }
-  
+
 #photo-card-1{
   background-image: url('../assets/images/list-service/electricista-1.jpg');
 }
-  
+
 #photo-card-2{
   background-image: url('../assets/images/list-service/electricista-2.jpg');
 }
-  
+
 #photo-card-3{
   background-image: url('../assets/images/list-service/electricista-3.jpg');
 }
-  
+
   /* BACKGROUND */
 .back-navbar{
   background-color: black;
@@ -79,11 +79,11 @@
 
 /* CALIFICACION 5 ESTRELLAS */
 
-label{ 
+label{
   color:grey;
 }
 
-input[type = "radio"]{ 
+input[type = "radio"]{
   display:none;
 }
 
@@ -104,41 +104,41 @@ input[type = "radio"]:checked ~ label{
   margin: 0 auto;
   height: 50px;
 }
-  
-#form p { 
-  text-align: center; 
+
+#form p {
+  text-align: center;
 }
 
-#form label { 
-  font-size: 20px; 
+#form label {
+  font-size: 20px;
 }
 
-input[type="radio"] { 
+input[type="radio"] {
   display: none;
 }
 
 label {
   color: grey;
 }
-  
+
 .clasificacion {
   direction: rtl;
   unicode-bidi: bidi-override;
   margin-bottom: 0;
 }
-  
-label:hover, label:hover ~ label { 
-  color: orange; 
+
+label:hover, label:hover ~ label {
+  color: orange;
 }
 
 input[type="radio"]:checked ~ label {
-  color: orange; 
+  color: orange;
 }
 
-.size-star { 
+.size-star {
   font-size: 2.0em;
-}  
- 
+}
+
 /* SECCION PUBLICACIONES */
 .app{
   margin-top: 20px;
@@ -176,10 +176,10 @@ textarea{
   margin: 15px 0;
   padding: 15px 40px 15px 15px;
   position: relative;
-  width: 100%; 
+  width: 100%;
   word-wrap: break-word;
 }
- 
+
 #container-to-do{
   margin: 15px 0;
 }
@@ -193,7 +193,9 @@ textarea{
   right: 10px;
   top: 40%;
 }
-
+.return{
+  color:white;
+}
 /* CLASE REUTILIZABLE ICONO*/
 .box{
   border:1px solid #ced2d3;
