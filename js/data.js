@@ -1,3 +1,4 @@
+/* Declaración de Arrays */
 dataPeople = [];
 portafolio = [];
 providers = [];
@@ -43,11 +44,11 @@ portafolio [1,3] = '../assets/images/list-service/port-2-3.jpg'; /* trabajo 3  *
 /* Persona Nro 3 */
 /* Datos Personales */
 dataPeople [2,0] = 'O00002'; /* correlative-identificador */
-dataPeople [2,1] = 'Marcos Inca'; /* name */
+dataPeople [2,1] = 'Rubén Cabanillas'; /* name */
 dataPeople [2,2] = '45'; /* edad */
 dataPeople [2,3] = '../assets/images/list-service/electricista-2.jpg'; /* foto */
 dataPeople [2,4] = 'marcos-inca@gmail.com'; /* email */
-dataPeople [2,5] = 'Electricista con 15 años en experiencia y calidad en el trabajo'; /* resumen */
+dataPeople [2,5] = 'Electricista con 3 años en experiencia, responsable y puntual'; /* resumen */
 dataPeople [2,6] = 'electricista'; /* oficio */
 dataPeople [2,7] = '26'; /* nro de recomendaciones */
 dataPeople [2,8] = '25'; /* nro de likes */
