@@ -42,17 +42,17 @@
       </div>
     </nav>
   </header>
-
-  <div class="col-xs-offset-1 col-md-offset-1">
-      <a href=".html"><i class="fa fa-chevron-circle-left fa-2x icon" aria-hidden="true"></i></a>
-  </div>
-
   <section class="gradient">
     <!--sección foto-->
     <div class="container">
       <div class="row">
-        <div class="col-xs-8">
-          <figure>
+        <div class="col-xs-12">
+          <a class="navbar-brand white" href="list-services.html"><i class="fa fa-home" aria-hidden="true"></i></i></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <figure class="center-block">
             <img src="../assets/images/electricista.jpg" alt="electricista" class="center-block">
           </figure>
         </div>
@@ -70,39 +70,33 @@
     </div>
     <!--seccion para subi su portafolio-->
     <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <h3 class="white text-center">Para que te conozcan más, llena tu portafolio con tus trabajos</h3>
-          <div id="preview" class="thumbnail">
-            <a href="#" id="file-select" class="btn btn-default">Elegir archivo</a>
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4="/>
+      <div class="row ">
+        <div class="col-xs-12 ">
+          <div class="gray">
+            <h3 class="white text-center">Para que te conozcan más, llena tu portafolio con tus trabajos</h3>
+            <div id="preview" class="thumbnail preview">
+              <a href="#" id="file-select" class="btn btn-default">Elige la foto que desees </a>
+              <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4="/>
+            </div>
+            <span class="alert  alert-success message-alert file-info center-block" id="file-info">No hay archivo aún</span>
+            <form id="file-submit" enctype="multipart/form-data">
+              <input id="file" name="file" type="file"/>
+            </form>
+            <a href="#" class="btn  center-block save" id="file-save">Guardar</a>
           </div>
-          <span class="alert alert-info" id="file-info">No hay archivo aún</span>
-          <form id="file-submit" enctype="multipart/form-data">
-            <input id="file" name="file" type="file"/>
-          </form>
-          <a href="#" class="btn btn-primary center-block" id="file-save">Guardar</a>
         </div>
       </div>
       <div class="row">
-          <div class="col-xs-12">
-          <div class="" id="imagen">
+        <div class="col-xs-12">
+          <div class="gray" id="imagen">
 
           </div>
-          </div>
+        </div>
       </div>
     </div>
-
-
   </section>
-
-
-
-
-
-    <script src=""></script>
-    <script src="../vendors/js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="../js/profile-job.js"></script>
-</body>
+  <script src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/profile-job.js"></script>
+ </body>
 </html>

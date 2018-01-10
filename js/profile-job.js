@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   /* seccion para subir las fotos*/
   $('#preview').hover(function() {
     /* aparece el btn de subir foto*/
@@ -12,10 +11,11 @@ $(document).ready(function() {
     event.preventDefault();
     $('#file').click();
   });
+  /* funcion para subir la imagen*/
   $('input[type=file]').change(function() {
-  /* se utiliza en firefox, si se usa en chrome el resultado es C:\fakepath\descarga.png*/
-  /*  var file = $(this).val();*/
-  /* se utiliza en chrome*/
+    /* se utiliza en firefox, si se usa en chrome el resultado es C:\fakepath\descarga.png*/
+    /*  var file = $(this).val();*/
+    /* se utiliza en chrome*/
     var file = (this.files[0].name).toString();
     console.log(file);
     var reader = new FileReader();
@@ -29,11 +29,9 @@ $(document).ready(function() {
     /* muestra la imagen*/
     reader.readAsDataURL(this.files[0]);
   });
-  $('#file-save').click(function(event) {
-
-    alert(event.target.result);
-
-    /* var newImagen =localStorage.getItem("imagen");
+  /* var newImagen =localStorage.getItem("imagen");
    $('#imagen').append(newImagen)*/
+  $('#file-save').click(function() {
+
   });
 });

@@ -44,7 +44,9 @@ outline: 1px solid red;
   font-size: 50px;
 }
 
-
+.return{
+  color:white;
+}
 
 @media (min-width: 992px) {
   .title-logo{
