@@ -3,7 +3,7 @@ PRODUCTO FINAL: "Red Social Obchod"
 
 ![Inicio](assets/images/readme/...jpg)
 
-- El Acoso Sexual en el Trasnporte Metropolitano
+- Problema o Requerimiento:
 ![Inicio](assets/images/readme/...jpg)
 
 GRUPO: NETWORKING GIRLS
@@ -36,7 +36,9 @@ proveedores que ofertan sus productos relacionados.
 
 ## ANEXOS
 - Cuestionario de Entrevista Presencial a Electricista
-- Cuestionario de Encuesta Online a Posibles Clientes
+- Cuestionario de Encuesta Online a Posibles Clientes :
+** Cantidad: 27 personas encuestadas.
+** Link- https://goo.gl/forms/7RBTRfiR6nP1VR2v2
 - Cuestionario de Entrevista Online a Posibles Proveedores
 ![Inicio](assets/images/readme/...png)
 
