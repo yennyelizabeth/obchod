@@ -2,6 +2,7 @@
 dataPeople = [];
 portafolio = [];
 providers = [];
+ads = [];
 
 /* Persona Nro 1 */
 dataPeople [0,0] = 'O00001'; /* correlative-identificador */
