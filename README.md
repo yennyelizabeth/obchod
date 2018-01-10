@@ -67,6 +67,9 @@ se han identificado sus necesidades.
   Se encuestó a 27 personas
   Teniendo los siguientes resultados
 
+  ![Inicio](assets/images/readme/resultado-posibles-clientes.png)
+  ![Inicio](assets/images/readme/resultado-posibles-clientes-2.png)
+
 - Encuesta Presencial a Proveedor
   Se elaboró un modelo de entrevista a un proveedor
 
@@ -85,7 +88,8 @@ y se pudo conocer sus historias.
 ##### Metas y Deseos ( electricista, cliente y proveedor)
 - Electricista, tiene como meta: aumentar contactos con clientes, reducir el tiempo de contacto
   y conocer los anuncios de los proveedores rápidamente.
-- Cliente, tiene como meta: recibir un buen servicio.
+- Cliente, tiene como meta: visualizar perfiles, recibir , calificar y recomendar un buen servicio,
+ubicar rápidamente. 
 - Proveedor, tiene como meta tener más clientes que conozcan rápidamente la información de sus     productos.
 
 ### INVESTIGANDO
