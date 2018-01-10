@@ -4,7 +4,7 @@
     padding: 0;
   }
   
-/* photos card */
+/* PHOTOS CARD*/
 .photo-card{
   height: 30vh;
   width: 40vh;
@@ -26,7 +26,7 @@
   background-image: url('../assets/images/list-service/electricista-3.jpg');
 }
   
-  /* backgrounds */
+  /* BACKGROUND */
 .back-navbar{
   background-color: black;
   /*height: 11vh;*/
@@ -54,13 +54,13 @@
     background-color: #00c38e;
 }
 
-/* imagenes header */
+/* IMAGENES HEADERS */
 
 .logo-size {
   height: 4vh;
 }
 
-/* letras */
+/* LETTERS*/
 .subt-letter {
   text-align: center;
   margin: 0;
@@ -71,7 +71,13 @@
   color: black;
 }
 
-/* calificación 5 estrellas */
+.color-btn-green {
+  background-color: rgb(136, 211, 85);
+  color: black;
+  border: 1px solid rgb(136, 211, 85);
+}
+
+/* CALIFICACION 5 ESTRELLAS */
 
 label{ 
   color:grey;
@@ -133,7 +139,7 @@ input[type="radio"]:checked ~ label {
   font-size: 2.0em;
 }  
  
-/* sección publicaciones */
+/* SECCION PUBLICACIONES */
 .app{
   margin-top: 20px;
 }
@@ -188,13 +194,7 @@ textarea{
   top: 40%;
 }
 
- 
-  
-
-
-
-
-/* clase reutilizable para icono*/
+/* CLASE REUTILIZABLE ICONO*/
 .box{
   border:1px solid #ced2d3;
   background-color: white;
