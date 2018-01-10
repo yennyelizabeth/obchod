@@ -7,7 +7,7 @@ PRODUCTO FINAL: "Red Social"
 ## INTEGRANTES:  
 - Lara Aspilcueta, Betsy Dessire - betsy_dessire@hotmail.com
 - Quiñones Jauregui,Yenny Elizabeth - yenny.quinones.jauregui@gmail.com
-- Yauri , Melissa Rossmery - 
+- Yauri Machaca , Melissa Rossmery - yaurimelissa@gmail.com 
 
 ## PROBLEMA
 - Problema o Requerimiento: Ausencia de una Red Social exclusiva para ofertar oficios, demandar servicios y
