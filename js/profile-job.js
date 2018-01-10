@@ -27,12 +27,16 @@ $(document).ready(function() {
     $('#file-info').text(file);
     reader.onload = function(event) {
       var newim = $('#preview img').attr('src', event.target.result);
+      $('#imagen').append("<img src= '"+ event.target.result +"' />");
       console.log(newim);
     };
     /* muestra la imagen*/
     reader.readAsDataURL(this.files[0]);
   });
-  $('#file-save').click(function() {
+  $('#file-save').click(function(event) {
+
+    alert(event.target.result);
+
     /* var newImagen =localStorage.getItem("imagen");
    $('#imagen').append(newImagen)*/
   });
