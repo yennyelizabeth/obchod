@@ -96,12 +96,6 @@ reducir el tiempo de contacto| recibir , calificar y recomendar un buen servicio
 conocer los anuncios de los proveedores rápidamente|ubicar rápidamente|que conozcan rápidamente la información de sus productos.
 
 
-- Electricista, tiene como meta: aumentar contactos con clientes, reducir el tiempo de contacto
-  y conocer los anuncios de los proveedores rápidamente.
-- Cliente, tiene como meta: visualizar perfiles, recibir , calificar y recomendar un buen servicio,
-ubicar rápidamente. 
-- Proveedor, tiene como meta tener más clientes que conozcan rápidamente la información de sus     productos.
-
 ### INVESTIGANDO
 #### Oficio Definición
 #### Oficio Electricidad

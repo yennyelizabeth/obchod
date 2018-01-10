@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /** *****************************funcionalidad *******************************/
 $(document).ready(function() {
   $('.nav li').on('click', function() {
@@ -7,10 +8,20 @@ $(document).ready(function() {
   /* ________________________ Main- Lista de Electricistas____________________*/
   /* var url = dataPeople[0,3];*/
   var url = dataPeople[0, 3];
+=======
+/* funcionalidad */
+$( document ).ready(function() {
+  $(".nav li").on("click", function(){
+    $(".nav").find(".activa").removeClass("activa");
+    $(this).addClass("activa");
+  });
+  var url = dataPeople[0,3];
+>>>>>>> 0a88ad4640bb74d972c213a64ff709ab16d51883
   var $idName = $('#name');
   var $idResum = $('#resum');
 
   /* extraer data */
+<<<<<<< HEAD
   $idName.text(dataPeople[0, 1]);
   $idResum.text(dataPeople[0, 5]);
   $('#imagen').attr('src', url);
@@ -18,6 +29,15 @@ $(document).ready(function() {
   $('#imagen').attr('title', 'Imagen de carga');
 
   /* _________________________Sección Publicaciones__________________________*/
+=======
+  /*$idName.text( dataPeople[0,1] );
+    $idResum.text( dataPeople[0,5]);
+    $("#imagen").attr('src', url);*/
+  $("#imagen").attr('alt', 'Imagen no disponible');
+  $("#imagen").attr('title', 'Imagen de carga');
+
+  /* Sección Publicaciones */
+>>>>>>> 0a88ad4640bb74d972c213a64ff709ab16d51883
   var btn = $('#btn');
   // btn.prop("disabled", true);
   var textarea = $('#textarea');
@@ -46,6 +66,7 @@ $(document).ready(function() {
     var containerToDo = $('#container-to-do');
     var newTask = $('<div>');
     var label = $('<label>');
+<<<<<<< HEAD
     // var check = $('<input>');
     var text = $(document.createTextNode(taskContent));
     var icon = $('<i>');
@@ -64,6 +85,19 @@ $(document).ready(function() {
     newTask.append(icon);
     
     textarea.val('');
+=======
+    var text = $(document.createTextNode(taskContent));
+    var icon = $('<i>');
+
+		newTask.addClass('new');
+    newTask.addClass('checkbox');
+    containerToDo.append(newTask);
+  	newTask.append(label);
+		label.append(text);
+		icon.addClass('glyphicon glyphicon-trash icon');
+		newTask.append(icon);
+    textarea.val('')
+>>>>>>> 0a88ad4640bb74d972c213a64ff709ab16d51883
 
     // check.click(function() {
     //   labeledTask();
