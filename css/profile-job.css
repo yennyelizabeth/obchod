@@ -93,7 +93,7 @@ img[alt="electricista"]{
   right: 5px;
   display: none;
   font-size: 10px;
-  padding: 20px;
+
 }
 .file-info {
   text-align: center;
@@ -120,4 +120,13 @@ input[type=file] {
 }
 .black{
   color: black;
+}
+
+@media (min-width: 992px) {
+  .title1{
+    margin-left: 50rem;
+  }
+  .title2{
+    margin-left: 45rem;
+  }
 }

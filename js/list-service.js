@@ -1,9 +1,9 @@
 
 /* funcionalidad */
-$( document ).ready(function() {
-  $(".nav li").on("click", function(){
-    $(".nav").find(".activa").removeClass("activa");
-    $(this).addClass("activa");
+$(document).ready(function() {
+  $('.nav li').on('click', function() {
+    $('nav').find('.activa').removeClass('activa') ;
+    $(this).addClass('activa');
   });
   /*
   var url = dataPeople[0,3];
@@ -22,13 +22,13 @@ $( document ).ready(function() {
 
   /* publicaciones */
   var btn = $('#btn');
-	// btn.prop("disabled", true);
-	var textarea = $('#textarea');
-	
+  //   btn.prop("disabled", true);
+  var textarea = $('#textarea');
+
 	textarea.keyup(function(e){
 		validation();
 	});
-	
+
 	function validation(){
 		var long = textarea.val().length;
 		var onlyText = textarea.val().replace(/\s/g,'');
@@ -39,7 +39,7 @@ $( document ).ready(function() {
 			// btn.prop("disabled", true);
 		}
   }
-  
+
 	btn.click(function() {
 		addTask();
 		textarea.val('');
@@ -59,10 +59,10 @@ $( document ).ready(function() {
 		containerToDo.append(newTask);
 	/*	check.attr('type','checkbox');*/
 /*		label.append(check);*/
-		newTask.append(label);	
-		label.append(text);	
+		newTask.append(label);
+		label.append(text);
 		icon.addClass('glyphicon glyphicon-point icon');
-		newTask.append(icon);    
+		newTask.append(icon);
     textarea.val('')
 
 		/*check.click(function() {
@@ -74,7 +74,7 @@ $( document ).ready(function() {
 		icon.click( function() {
 			deleteTask();
     });
-    
+
 		function deleteTask(){
 			newTask.remove()
 		}

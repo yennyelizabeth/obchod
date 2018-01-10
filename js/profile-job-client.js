@@ -49,7 +49,6 @@ $(document).ready(function() {
       event.preventDefault();
     }
   });
-  /* colocando datos personales*/
   var $idName = $('#dates');
 
   var name = $idName.append('<div id="name">Nombre:</div>');
@@ -61,6 +60,7 @@ $(document).ready(function() {
   var experience = $idName.append('<div id="resumen">Experiencia:</div>');
   $('#dates #resumen').append('<span></span>');
   $('#resumen span ').text(dataPeople[0, 5]);
+
   /* seccion para las estrellas*/
   $('#star-responsability').raty({
     targetKeep: true
