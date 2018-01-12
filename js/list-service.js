@@ -1,4 +1,4 @@
-/* funcionalidad */
+/* funcionalidad  c*/
 $(document).ready(function() {
   $('.nav li').on('click', function() {
     $('nav').find('.activa').removeClass('activa') ;
