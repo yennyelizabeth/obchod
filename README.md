@@ -71,10 +71,9 @@ En la presente versión solo se esta considerando la funcionalidad para un ofici
   ![Inicio](assets/images/readme/...png  "Modelo Entrevista Presencial a Posibles Proveedores")
 
 ## PLANEACIÓN DEL PROYECTO
-###
-### Link
-### Tecnología
 - Trello
+### [Planificación en trello]( https://trello.com/b/sJzBGeGU/red-social-de-oficios")
+
 
 
 ## ETAPAS DE IMPLEMENTACIÓN DEL PROYECTO
