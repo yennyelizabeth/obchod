@@ -37,6 +37,7 @@ outline: 1px solid red;
   background-color: white;
   margin-bottom: 10px;
   border-radius: 8px;
+  box-shadow: 10px 10px 5px ;
 }
 
 .icon{
@@ -46,6 +47,10 @@ outline: 1px solid red;
 
 .return{
   color:white;
+}
+
+.box h3{
+  font-size: 16px;
 }
 
 @media (min-width: 992px) {
