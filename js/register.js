@@ -113,6 +113,7 @@ $(document).ready(function() {
 	
   $txtLastName.on('input', function(event) {
     event.preventDefault();
+    // validando que el apellido sea mas de 3 caracteres
     if ($(this).val().length > 3) {
       $validateLastName = true;
       NewActive();
@@ -124,6 +125,7 @@ $(document).ready(function() {
 	
   $txtNewEmail.on('input', function(event) {
     event.preventDefault();
+    // usando expresiones regulares para la validacion del email
     var regExpre = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
     if (regExpre.test($(this).val())) {
       $validateNewEmail = true;
