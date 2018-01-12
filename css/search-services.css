@@ -4,6 +4,15 @@
   font-family: 'Poppins', sans-serif;
 
 }
+
+.navbar-default .navbar-nav>li>a {
+  color: #faf3f3;
+  }
+
+  .navbar-default .navbar-nav>li>a:hover {
+    color: #3df58a;
+    }
+
 .line{
 outline: 1px solid red;
 }
