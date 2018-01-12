@@ -5,6 +5,7 @@
 
 }
 
+/* color y hover a navbar */
 .navbar-default .navbar-nav>li>a {
   color: #faf3f3;
 }
@@ -57,12 +58,16 @@ img[alt="logo-menu"]{
 .box:hover{
   background-color:#e1edd7;
 }
-
+/* ajuste a iconos de oficios */
 .icon{
   color:#00c38e;
   font-size: 50px;
+  padding-top: 10px;
 }
 
+.fix-letter {
+  margin-top: 0;
+}
 .return{
   color:white;
 }
