@@ -19,10 +19,10 @@ $(document).ready(function() {
   $('#imagen').attr('title', 'Imagen de carga');
 */
 
-  /* publicaciones */
+  /* Funcionalidad - Sección Publicaciones */
   var btn = $('#btn');
-  //   btn.prop("disabled", true);
   var textarea = $('#textarea');
+<<<<<<< HEAD
 
   textarea.keyup(function(e) {
     validation();
@@ -36,8 +36,51 @@ $(document).ready(function() {
     } else {
       // btn.prop("disabled", true);
     }
+=======
+  /* inicializa con botón publicar desactivado */
+  btn.prop('disabled', true);
+  /* evento de ingreso en textarea */
+	 textarea.keyup(function(event) {
+	    validation();
+	 });
+  /* función valida publicación */
+	 function validation() {
+	 	var long = textarea.val().length;
+	 	var onlyText = textarea.val().replace(/\s/g, '');
+		 if (long === 0 || onlyText === 0) {
+      btn.prop('disabled', true) ;
+	   } else {
+	  	 btn.prop('disabled', false);
+	   }
+>>>>>>> 066169647cabc6c2260f8996474fa05328bfc486
   }
+  /* evento click */
+	 btn.click(function() {
+	  addPublication();
+	 	textarea.val('');
+	  btn.prop('disabled', true);
+	 });
+  /* función publicar */
+	 function addPublication() {
+    /* declaración de variables */
+	 	var publicationContent = textarea.val();
+	 	var $containerToDo = $('#container-to-do');
+    var $newPublication = $('<div>');
+    var $label = $('<label>');
+    var $text = $(document.createTextNode(publicationContent));
+    var $icon = $('<i>');
+    /* adición de clases y asignación de padres e hijos*/
+		 $newPublication.addClass('new');
+		 $newPublication.addClass('checkbox');
+	   $containerToDo.append($newPublication);
+    $newPublication.append($label);
+		 $label.append($text);
+	 	$icon.addClass('glyphicon glyphicon-point icon');
+	 	$newPublication.append($icon);
+    textarea.val('');
+    btn.prop('disabled', true);
 
+<<<<<<< HEAD
   btn.click(function() {
     addTask();
     textarea.val('');
@@ -77,4 +120,19 @@ $(document).ready(function() {
       newTask.remove();
     }
   }
+=======
+    /* función publicar */
+	 	function labeledTask() {
+			 label.toggleClass('labeled');
+		 }
+
+	 	icon.click(function() {
+		 	deleteTask();
+    });
+
+		 function deleteTask() {
+		 	$newPublication.remove();
+		 }
+	 }
+>>>>>>> 066169647cabc6c2260f8996474fa05328bfc486
 });

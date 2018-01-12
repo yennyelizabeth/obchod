@@ -23,7 +23,7 @@ anunciar productos relacionados.
 ![Inicio](assets/images/logo1.PNG)
 
 ### FAST VIEW
-![Inicio](assets/images/readme/innovando.png)
+![Inicio](assets/images/readme/vist-splash.PNG)
 
 ## BREVE EXPLICACION:
 - Obchod, es una Red Social, con accesibilidad vía web ( link gh-pages ) y mobile, que tiene la finalidad de facilitar los puntos de contactos entre: personas que tienen un oficio, clientes que solicitan  servicios y proveedores que ofertan sus productos relacionados.
@@ -31,33 +31,40 @@ anunciar productos relacionados.
 ## PROTOTIPO :
 ### GLOBAL VIEW
 ----------------------
-![Inicio](assets/images/readme/index.PNG)
+#### VISTAS ORIENTADAS AL CLIENTE
+![Inicio](assets/images/readme/guia-vistas-cliente.png)
 
-![Inicio](assets/images/readme/oficios.PNG)
+#### VISTAS ORIENTADAS AL QUE BRINDA EL SERVICIO
 
-![Inicio](assets/images/readme/profile-clients.PNG)
+- Vista Ingresar: Esta vista te permite tanto ingresar
 
-![Inicio](assets/images/readme/profile-client3.PNG)
+![Inicio](assets/images/readme/register.PNG)
+
+ Y también registrarte
+
+![Inicio](assets/images/readme/register2.PNG)
 
 
-![Inicio](assets/images/readme/profile-client2.PNG)
+- Vista Profile: Esta vista permite tener un perfil al que ofrece el servicio
 
-![Inicio](assets/images/readme/login-client.PNG)
+![Inicio](assets/images/readme/profile-office.PNG)
+
+Y para que el cliente conosca los trabajos que realiza el que ofrece el servicio.Se incorpora una sección para subir sus fotos.
+
+![Inicio](assets/images/readme/profile-office2.PNG)
+
+Tanto para el cliente como para la persona que ofrece el servicio tienen un vista en común llamada vista home.
 
 
-![Inicio](assets/images/readme/alert.PNG)
+## DETALLE
+En la presente versión solo se esta considerando la funcionalidad para un oficio que es el electricista.
 
 ## ANEXOS
 - Modelo Cuestionario de Entrevista Presencial a Electricista
-<<<<<<< HEAD
-
   ![Preguntas](assets/images/readme/grupo-question-1.png "Entrevistando a Electricista")
-  ![Respuestas](assets/images/readme/grupo-respuestas-clientes.png "Respuestas de Electricista")
+  ![Respuestas](assets/images/readme/grupo-respuestas-clientes-.png "Respuestas de Electricista")
 
-
-  Link -
-  ![Inicio](assets/images/readme/grupo-question-1.png)
-
+- Modelo Cuestionario de Encuesta a Posibles Clientes
   [Encuesta]( https://goo.gl/forms/7RBTRfiR6nP1VR2v2 "Encuestando a Posibles Clientes").
 
 - Modelo Cuestionario de Entrevista Presencial a Posibles Proveedores

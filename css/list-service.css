@@ -26,7 +26,7 @@
   background-image: url('../assets/images/list-service/electricista-3.jpg');
 }
 
-  /* BACKGROUND */
+/* BACKGROUND */
 .back-navbar{
   background-color: black;
   /*height: 11vh;*/
@@ -42,13 +42,30 @@
   height: 200vh;
 }
 
-.title-list-service {
+.title-list-service-xs {
+  color: white;
+  text-align: center;
+  position:relative;
+  left: 100px;
+  top: -50px;
+}
+
+.title-list-service-lg{
+  color: white;
+  text-align: center;
+  position:relative;
+  left: 600px;
+  top: -50px;
+}
+.title-list-service-md{
   color: white;
   text-align: center;
   position:relative;
   left: 200px;
   top: -50px;
 }
+
+
 
 .activa{
     background-color: #00c38e;
@@ -58,6 +75,15 @@
 
 .logo-size {
   height: 4vh;
+}
+
+/* color y hover a navbar */
+.navbar-default .navbar-nav>li>a {
+  color: #faf3f3;
+  }
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #3df58a;
 }
 
 /* LETTERS*/
@@ -140,6 +166,11 @@ input[type="radio"]:checked ~ label {
 }
 
 /* SECCION PUBLICACIONES */
+
+#fix-a {
+  text-decoration: none;
+  color: white;
+}
 .app{
   margin-top: 20px;
 }

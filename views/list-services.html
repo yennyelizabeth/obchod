@@ -16,7 +16,7 @@
     <nav class="navbar navbar-default back-navbar" role="navigation">
       <!-- despliegue en dispositivos móviles -->
       <div class= "navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse"
+        <button type="button" class="navbar-toggle " data-toggle="collapse"
         data-target=".navbar-ex1-collapse">
           <span class="sr-only">Desplegar navegación</span>
           <span class="icon-bar"></span>
@@ -26,12 +26,14 @@
         <!-- logo de navbar-->
         <a class="navbar-brand" href="#">
           <img class="logo-size" src="../assets/images/logo2.png" alt="">
-          <h1 class= "title-list-service" >Obchod</h1>
+          <h1 class= "title-list-service-lg visible-lg-block" >Obchod</h1>
+          <h1 class= "title-list-service-md visible-sm-block" >Obchod</h1>
+          <h1 class= "title-list-service-xs visible-xs-block" >Obchod</h1>
         </a>
       </div>
       <!-- enlaces de navegación visibles en desktop y agrupados no visibles en vista móvil -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right navbar-hover">
           <li><a href="#">Quienes Somos</a></li>
           <li><a href="#">Oficios</a></li>
           <li><a href="#">Clientes</a></li>
@@ -54,14 +56,12 @@
           <div class="title">
             <b>NewsFeed</b>
           </div>
-
           <div class="" id="">
             <div id="" class="subtitle" >
               <i class="fa fa-newspaper-o" aria-hidden="true"></i>
-              <b>Publications</b>
+              <a id="fix-a" href="#"> Publications <span class="badge">5</span></a>
             </div>
           </div>
-
           <textarea class="form-control" id="textarea"></textarea>
           <button id="btn" type="submit" class="btn btn-primary"> Publicar </button>
           <div id="container-to-do"></div>
@@ -81,7 +81,7 @@
             <div class="" id="">
               <div id="" class="subtitle" >
                 <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-                <b>Electricians</b>
+                <a id="fix-a" href="#"> Electricians <span class="badge">3</span></a>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@
       <div class="container">
         <div class="row">
           <!-- view de 1er card service -->
-          <div class="col-sm-6 col-md-4">
+          <div class=" col-sm-6 col-md-4">
             <div class="thumbnail">
                 <div class="photo-card center-block" id="">
                   <img id="imagen" src="../assets/images/list-service/electricista-1.jpg" class="img-circle img-responsive photo-card" alt="Cinque Terre" width="304" height="236">
@@ -201,7 +201,7 @@
             </div>
             <div id="" class="subtitle" >
               <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-              <b>All Electricity</b>
+              <a id="fix-a" href="#"> All Electricity <span class="badge">10</span></a>
             </div>
           </div>
         </div>

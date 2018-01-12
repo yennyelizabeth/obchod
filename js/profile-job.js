@@ -36,6 +36,7 @@ $(document).ready(function() {
     reader.onload = function(event) {
       var newim = $('#preview img').attr('src', event.target.result);
       $('#imagen').append("<img src= '"+ event.target.result +"' />");
+      $('#imagen img').addClass('box-img');
       console.log(newim);
     };
     /* muestra la imagen*/
