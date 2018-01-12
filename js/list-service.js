@@ -6,10 +6,8 @@ $(document).ready(function() {
   });
   /*
   var url = dataPeople[0,3];
-
   var $idName = $('#name');
   var $idResum = $('#resum');
-
   /* extraer data */
   /*
   $idName.text(dataPeople[0, 1]);
