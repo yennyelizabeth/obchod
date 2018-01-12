@@ -36,17 +36,21 @@ anunciar productos relacionados.
 
 #### VISTAS ORIENTADAS AL QUE BRINDA EL SERVICIO
 
-
 - Vista Ingresar: Esta vista te permite tanto ingresar
+
 ![Inicio](assets/images/readme/register.PNG)
 
  Y también registrarte
+
 ![Inicio](assets/images/readme/register2.PNG)
 
-- Vistta Profile: Esta vista permite tener un perfil al que ofrece el servicio
+
+- Vista Profile: Esta vista permite tener un perfil al que ofrece el servicio
+
 ![Inicio](assets/images/readme/profile-office.PNG)
 
 Y para que el cliente conosca los trabajos que realiza el que ofrece el servicio.Se incorpora una sección para subir sus fotos.
+
 ![Inicio](assets/images/readme/profile-office2.PNG)
 
 Tanto para el cliente como para la persona que ofrece el servicio tienen un vista en común llamada vista home.
