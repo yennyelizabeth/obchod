@@ -32,7 +32,7 @@ anunciar productos relacionados.
 ### GLOBAL VIEW
 ----------------------
 #### VISTAS ORIENTADAS AL CLIENTE
-![Inicio](assets/images/readme/guia-cliente-buscas-un-servicio.PNG)
+![Inicio](assets/images/readme/guia-vistas-cliente.png)
 
 #### VISTAS ORIENTADAS AL QUE BRINDA EL SERVICIO
 
