@@ -5,13 +5,24 @@
 
 }
 
+/* color y hover a navbar */
 .navbar-default .navbar-nav>li>a {
   color: #faf3f3;
   }
 
-  .navbar-default .navbar-nav>li>a:hover {
-    color: #3df58a;
-    }
+.navbar-default .navbar-nav>li>a:hover {
+  color: #3df58a;
+}
+
+/* ajuste a iconos de oficios */
+.fix-icon {
+  padding-top: 10px;
+}
+
+.fix-letter {
+  margin-top: 0;
+}
+
 
 .line{
 outline: 1px solid red;
