@@ -22,8 +22,9 @@ $(document).ready(function() {
   /* Funcionalidad - Sección Publicaciones */
   var btn = $('#btn');
   var textarea = $('#textarea');
-
+  /* inicializa con botón publicar desactivado */
   btn.prop('disabled', true);
+  /* evento de ingreso en textarea */
 	 textarea.keyup(function(event) {
 	    validation();
 	 });
@@ -32,9 +33,9 @@ $(document).ready(function() {
 	 	var long = textarea.val().length;
 	 	var onlyText = textarea.val().replace(/\s/g, '');
 		 if (long === 0 || onlyText === 0) {
-       		 btn.prop('disabled', true) ;
+      btn.prop('disabled', true) ;
 	   } else {
-	  	 btn.removeAttr('disabled', false);
+	  	 btn.prop('disabled', false);
 	   }
   }
   /* evento click */

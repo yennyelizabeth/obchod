@@ -26,7 +26,7 @@
   background-image: url('../assets/images/list-service/electricista-3.jpg');
 }
 
-  /* BACKGROUND */
+/* BACKGROUND */
 .back-navbar{
   background-color: black;
   /*height: 11vh;*/
@@ -166,6 +166,11 @@ input[type="radio"]:checked ~ label {
 }
 
 /* SECCION PUBLICACIONES */
+
+#fix-a {
+  text-decoration: none;
+  color: white;
+}
 .app{
   margin-top: 20px;
 }
