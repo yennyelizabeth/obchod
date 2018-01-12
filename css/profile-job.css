@@ -20,6 +20,20 @@
   font-size: 30px;
 }
 
+.navbar-default .navbar-nav>li>a {
+  color: #faf3f3;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #3df58a;
+}
+.boton-hamburger{
+  margin-top: 2rem;
+}
+.title1{
+  margin-left: 20rem;
+}
+
 .user{
   float: right;
 }
@@ -32,6 +46,7 @@ img[alt="electricista"]{
 .nav-menu1{
   background-color: black;
   margin-bottom: 0;
+  color:white;
 }
 .white{
   color:white;
@@ -41,6 +56,16 @@ img[alt="electricista"]{
  background-color:white;
  margin-top: 3rem;
  color: #00c38e;
+ padding-left: 20px;
+ padding-right: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ font-size: 20px;
+}
+.btn-call:hover{
+  color:white;
+  background-color:  #00c38e;
+
 }
 .btn-call i{
   margin-right: 1rem;
@@ -121,12 +146,33 @@ input[type=file] {
 .black{
   color: black;
 }
+.box-img{
+  border:1px solid #569834;
+  width: 80%;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  border-radius: 10px;
 
+}
 @media (min-width: 992px) {
   .title1{
-    margin-left: 50rem;
+    margin-left: 30rem;
   }
-  .title2{
+
+  .btn-call{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .dates{
+    padding: 15px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .title1{
     margin-left: 45rem;
   }
 }
