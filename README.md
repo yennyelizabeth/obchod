@@ -31,34 +31,12 @@ anunciar productos relacionados.
 ## PROTOTIPO :
 ### GLOBAL VIEW
 ----------------------
-* Vista Opciones: Esta vista consiste en definir si deseas algun servicio o quieres ofrecerlo.
-![Inicio](assets/images/readme/index.PNG)
+#### VISTAS ORIENTADAS AL CLIENTE
+![Inicio](assets/images/readme/guia-cliente-buscas-un-servicio.PNG)
 
-* Vista orientadas al cliente
+#### VISTAS ORIENTADAS AL QUE BRINDA EL SERVICIO
 
-- Vista Oficios: El cliente podrá buscar el servicio que requiera.
-![Inicio](assets/images/readme/oficios.PNG)
 
-- Vista home: Esta vista te permite postear y además te muestra todas las personas que tienen el servicio que solicitaste.Y asimismo muestra una lista de proveedores que es orientado al que ofrece su servicio.
-![Inicio](assets/images/readme/profile-clients.PNG)
-
--Vista Profile: Esta vista te permite ver todos los datos de la persona que ofrece el servicio.
-![Inicio](assets/images/readme/profile-client3.PNG)
-
- En ello también te permite calificarlo
-![Inicio](assets/images/readme/profile-client2.PNG)
-
- Y si deseas adquirir el servicio es necesario registrarte
- ![Inicio](assets/images/readme/login-client.PNG)
-
- Es totalmente indispensable sino sale un mensaje de alerta
-
-![Inicio](assets/images/readme/alert.PNG)
-
-Y finalmente te muestra el número telefonico para que lo contactes
-![Inicio](assets/images/readme/profile-client4.PNG)
-
-* Vista orientadas al que brinda el servicio
 - Vista Ingresar: Esta vista te permite tanto ingresar
 ![Inicio](assets/images/readme/register.PNG)
 
