@@ -127,6 +127,8 @@ conocer los anuncios de los proveedores rápidamente|ubicar rápidamente|que con
 ##### Estadísticas
 
 #### SKETCHS
+![Sketch-1](assets/images/readme/sketch-1.png)
+![Sketch-2](assets/images/readme/sketch-2.png)
 
 #### PRODUCCIÓN
 

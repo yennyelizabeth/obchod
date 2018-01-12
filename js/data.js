@@ -3,6 +3,7 @@ dataPeople = [];
 portafolio = [];
 providers = [];
 ads = [];
+client = [];
 
 /* Persona Nro 1 */
 dataPeople [0, 0] = 'O00001'; /* correlative-identificador */
@@ -102,3 +103,6 @@ products [0,1] = '../assets/images/list-service/port-1-1.jpg'; /* trabajo 1
 products [0,2] = '../assets/images/list-service/port-1-2.jpg'; /* trabajo 2
 products [0,3] = '../assets/images/list-service/port-1-3.jpg'; /* trabajo 3  */
 
+client [0, 0] = 'María Rosa Silva';
+client [0, 1] = 'mrosa@gmail.com';
+client [0, 2] = 'Estoy en la búsqueda de un electricista con 3 años de experiencia y que cuente con un portafolio para visualizar sus trabajos';

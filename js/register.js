@@ -38,9 +38,8 @@ $(document).ready(function() {
   $txtEmail.on('input', function(event) {
     event.preventDefault();
     var regExpre = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
-    if (regExpre.test($(this).val())) {
+    if (regExpre.test($(this).val()) && $(this).val() === localStorage.email) {
       $validateEmail = true;
-      // almacenando el email
       active();
     } else {
       $validateEmail = false;
@@ -50,7 +49,7 @@ $(document).ready(function() {
 	
   $txtPassword.on('input', function(event) {
     event.preventDefault();
-    if ($(this).val().length > 6) {
+    if ($(this).val().length > 6 && $(this).val() === localStorage.password) {
       $validatePassword = true;
       active();
     } else {
@@ -61,6 +60,10 @@ $(document).ready(function() {
 
   $btnLogin.on('click', function(event) {
     event.preventDefault();
+    // obteniendo el email mediante el localStorage
+    localStorage.email = $txtEmail.val();
+    localStorage.password = $txtPassword.val();
+    // console.log(localStorage.email);
     window.location.href = '../views/profile-job.html';
   });
 	
@@ -68,7 +71,7 @@ $(document).ready(function() {
   $txtEmail1.on('input', function(event) {
     event.preventDefault();
     var regExpre = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
-    if (regExpre.test($(this).val())) {
+    if (regExpre.test($(this).val()) && $(this).val() === localStorage.email) {
       $validateEmail1 = true;
       active1();
     } else {
@@ -79,7 +82,7 @@ $(document).ready(function() {
 	
   $txtPassword1.on('input', function(event) {
     event.preventDefault();
-    if ($(this).val().length > 6) {
+    if ($(this).val().length > 6 && $(this).val() === localStorage.password) {
       $validatePassword1 = true;
       active1();
     } else {
@@ -90,6 +93,8 @@ $(document).ready(function() {
 
   $btnLogin1.on('click', function(event) {
     event.preventDefault();
+    localStorage.email = $txtEmail1.val();
+    localStorage.password = $txtPassword1.val();
     window.location.href = '../views/profile-job.html';
   });
 	
@@ -142,6 +147,7 @@ $(document).ready(function() {
 
   $btnNew.on('click', function(event) {
     event.preventDefault();
+    localStorage.email = $txtNewEmail.val();
     window.location.href = '../views/list-services.html';
   });
 
@@ -150,7 +156,7 @@ $(document).ready(function() {
     event.preventDefault();
     if ($(this).val().length > 2) {
       $validateNameModal = true;
-      NewActive();
+      activeModal();
     } else {
       $validateNameModal = false;
       $btnCreate.attr('disabled', true);
@@ -173,9 +179,6 @@ $(document).ready(function() {
     var regExpre = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
     if (regExpre.test($(this).val())) {
       $validateEmailModal = true;
-      // revisar
-      localStorage.setItem = ('email', $txtEmailModal);
-      console.log(localStorage.email);
       activeModal();
     } else {
       $validateEmailModal = false;
@@ -196,6 +199,8 @@ $(document).ready(function() {
 
   $btnCreate.on('click', function(event) {
     event.preventDefault();
+    localStorage.email = $txtEmailModal.val();
+    localStorage.password = $txtPasswordModal.val();
     window.location.href = '../views/list-services.html';
   });
 
@@ -219,7 +224,7 @@ $(document).ready(function() {
   }
   
   function activeModal() {
-    if($validateNameModal && $validateLastNameModal && $validateEmailModal && $validatePasswordModal) {
+    if ($validateNameModal && $validateLastNameModal && $validateEmailModal && $validatePasswordModal) {
       $btnCreate.attr('disabled', false);
     }
   }
