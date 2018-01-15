@@ -46,7 +46,7 @@ $(document).ready(function() {
       $btnLogin.attr('disabled', true);
     }
   });
-	
+
   $txtPassword.on('input', function(event) {
     event.preventDefault();
     if ($(this).val().length > 6 && $(this).val() === localStorage.password) {
@@ -58,6 +58,7 @@ $(document).ready(function() {
     }
   });
 
+
   $btnLogin.on('click', function(event) {
     event.preventDefault();
     // obteniendo el email mediante el localStorage
@@ -66,7 +67,7 @@ $(document).ready(function() {
     // console.log(localStorage.email);
     window.location.href = '../views/profile-job.html';
   });
-	
+
   // vista desktop
   $txtEmail1.on('input', function(event) {
     event.preventDefault();
@@ -79,7 +80,7 @@ $(document).ready(function() {
       $btnLogin1.attr('disabled', true);
     }
   });
-	
+
   $txtPassword1.on('input', function(event) {
     event.preventDefault();
     if ($(this).val().length > 6 && $(this).val() === localStorage.password) {
@@ -97,50 +98,50 @@ $(document).ready(function() {
     localStorage.password = $txtPassword1.val();
     window.location.href = '../views/profile-job.html';
   });
-	
+
 
   // eventos para el register
   $txtName.on('input', function(event) {
     event.preventDefault();
     if ($(this).val().length > 2) {
       $validateName = true;
-      NewActive();
+      newActive();
     } else {
       $validateName = false;
       $btnNew.attr('disabled', true);
     }
   });
-	
+
   $txtLastName.on('input', function(event) {
     event.preventDefault();
     // validando que el apellido sea mas de 3 caracteres
     if ($(this).val().length > 3) {
       $validateLastName = true;
-      NewActive();
+      newActive();
     } else {
       $validateLastName = false;
       $btnNew.attr('disabled', true);
     }
   });
-	
+
   $txtNewEmail.on('input', function(event) {
     event.preventDefault();
     // usando expresiones regulares para la validacion del email
     var regExpre = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
     if (regExpre.test($(this).val())) {
       $validateNewEmail = true;
-      NewActive();
+      newActive();
     } else {
       $validateNewEmail = false;
       $btnNew.attr('disabled', true);
     }
   });
-	
+
   $txtNewPassword.on('input', function(event) {
     event.preventDefault();
     if ($(this).val().length > 6) {
       $validateNewPassword = true;
-      NewActive();
+      newActive();
     } else {
       $validateNewPassword = false;
       $btnNew.attr('disabled', true);
@@ -165,7 +166,7 @@ $(document).ready(function() {
       $btnCreate.attr('disabled', true);
     }
   });
-	
+
   $txtLastNameModal.on('input', function(event) {
     event.preventDefault();
     if ($(this).val().length > 3) {
@@ -176,7 +177,7 @@ $(document).ready(function() {
       $btnCreate.attr('disabled', true);
     }
   });
-	
+
   $txtEmailModal.on('input', function(event) {
     event.preventDefault();
     var regExpre = /^[a-zA-Z0-9\._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;
@@ -188,7 +189,7 @@ $(document).ready(function() {
       $btnCreate.attr('disabled', true);
     }
   });
-	
+
   $txtPasswordModal.on('input', function(event) {
     event.preventDefault();
     if ($(this).val().length > 6) {
@@ -213,24 +214,23 @@ $(document).ready(function() {
       $btnLogin.attr('disabled', false);
     }
   }
-	
+
   function active1() {
     if ($validateEmail1 && $validatePassword1) {
       $btnLogin1.attr('disabled', false);
     }
   }
-	
-  function NewActive() {
+
+  function newActive() {
     if ($validateName && $validateLastName && $validateNewEmail && $validateNewPassword) {
       $btnNew.attr('disabled', false);
     }
   }
-  
+
   function activeModal() {
     if ($validateNameModal && $validateLastNameModal && $validateEmailModal && $validatePasswordModal) {
       $btnCreate.attr('disabled', false);
     }
   }
-
 });
 
