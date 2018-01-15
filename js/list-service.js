@@ -35,6 +35,10 @@ $(document).ready(function() {
 	   } else {
 	  	 btn.prop('disabled', false);
 	   }
+    /* valida que no halla publicación en blanco*/
+    if (textarea.val().trim().length === 0) {
+      btn.prop('disabled', true) ;
+    }
   }
   /* evento click */
 	 btn.click(function() {
