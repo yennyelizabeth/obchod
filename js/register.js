@@ -150,7 +150,8 @@ $(document).ready(function() {
   $btnNew.on('click', function(event) {
     event.preventDefault();
     localStorage.email = $txtNewEmail.val();
-    window.location.href = '../views/list-services.html';
+    localStorage.password = $txtNewPassword.val();
+    window.location.href = '../views/register.html';
   });
 
   // registro modal
@@ -203,7 +204,7 @@ $(document).ready(function() {
     event.preventDefault();
     localStorage.email = $txtEmailModal.val();
     localStorage.password = $txtPasswordModal.val();
-    window.location.href = '../views/list-services.html';
+    window.location.href = '../views/register.html';
   });
 
   // funciones reutilizables

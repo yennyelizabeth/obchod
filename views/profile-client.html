@@ -51,25 +51,67 @@
       </div>
     </nav>
   </header>
-  <div class="section-profile vh100 container-flex-column">
-    <div class="container">
+
+  <div class="section-profile">
+    <div class="container vh100 container-flex-column">
       <div class="row">
         <div class="col-xs-12 col-md-5">
-          <div class="img-profile" id="imagen">
-            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNzEiIGhlaWdodD0iMTgwIj48cmVjdCB3aWR0aD0iMTcxIiBoZWlnaHQ9IjE4MCIgZmlsbD0iI2VlZSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9Ijg1LjUiIHk9IjkwIiBzdHlsZT0iZmlsbDojYWFhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjEycHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+MTcxeDE4MDwvdGV4dD48L3N2Zz4="
-              class="img-responsive">
-            <!-- <figure id="imagen"></figure> -->
+          <div class="img-profile">
+            <i class="fa fa-user-circle-o fa-3x" id="user" aria-hidden="true"></i>
+            <img id="imagen" class="img-responsive img-circle">
           </div>
-          <form id="file-submit" enctype="multipart/form-data">
-            <!-- seleccionar archivo -->
-            <input id="file" name="file" type="file" />
-          </form>
+          <div class="col-xs-12">
+            <form id="file-submit" enctype="multipart/form-data">
+              <!-- seleccionar archivo -->
+              <input id="file" type="file" />
+            </form>
+          </div>
         </div>
-        <div class="description icon">Descripcion</div>
       </div>
     </div>
   </div>
-  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <hr>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <ul>
+            <li><a href="#">¿Quienes Somos?</a></li>
+            <li><a href="#">Help</a></li>
+						<li><a href="#">Prensa</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">Eventos</a></li>
+						<li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-6">
+					<ul class="icon-footer">
+            <i class="fa fa-facebook " aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-apple" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </ul>
+          <figure>
+              <img src="../assets/images/app-store.png" alt="appstore" class="img-responsive">
+              <br>
+              <img src="../assets/images/google-play.png" alt="googleplay" class="img-responsive">
+          </figure>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 text-center icon">
+          <hr>
+          <address> © 2017 Social Red Obchod </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
 
   <!-- donde se colocaran las estrellas -->
   <script src="../vendors/js/jquery-3.2.1.min.js"></script>
@@ -78,8 +120,5 @@
   <script src="../js/data.js"></script>
   <script src="../js/profile-client.js"></script>
 </body>
-
-</html>
-
 
 </html>
