@@ -1,3 +1,15 @@
+# Obchod
+Nosotros somos una plataforma de red social de oficios. Si tienes un oficio y estás buscando publicar tu perfil y tu oficio aquí lo porás realizar. Si buscas los servicios de una persona , no tienes tiempo para solicitar recomendaciones y necesitas rápidamente contactar aquí lo podrás realizar.
+
+![Inicio](assets/images/readme/vist-splash.PNG)
+
+## Proyecto desarrollado en [Laboratoria](http://laboratoria.la)
+
+![icon](public/favicon.ico)
+
+## En  [Peru](http://peru.com)
+
+
 PRODUCTO FINAL: "Red Social"
 ======================================
 ## SQUAD: LAS CAPUCCINAS
