@@ -1,7 +1,8 @@
 # Obchod
 Nosotros somos una plataforma de red social de oficios. Si tienes un oficio que presentar y/ó buscas una persona que te preste un servicio, este es el lugar.
 
-![Inicio](assets/images/readme/vist-splash.PNG)
+![Inicio](assets/images/readme/innovando-lo-tradicional.png)
+
 
 ## Proyecto desarrollado en [Laboratoria](http://laboratoria.la)
 
