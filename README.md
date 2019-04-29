@@ -51,18 +51,17 @@ Equipo "Networking Girls"
 
 ## Proceso
 
-### Resumen
 - Descubrimiento
 - Empatía
  
 Se han identificado la historia real de un electricita, y a través de entrevistas se han identificado sus necesidades.
 
-###### Historias:
  ![Inicio](assets/images/readme/historia-electricista.png)
  ![Inicio](assets/images/readme/historia-cliente.png)
  ![Inicio](assets/images/readme/historia-proveedor.png)
 
-###### Metas y Deseos ( electricista, cliente y proveedor)
+Se identificaron las metas y deseoos  del electricista, cliente y proveedor.
+
 Electricista |    Cliente   | Proveedor
 ------------ | -------------|--------------
 Aumentar contactos con clientes | visualizar perfiles|más clientes reducir el tiempo de contacto| recibir , calificar y recomendar un buen servicio| conocer los anuncios de los proveedores rápidamente|ubicar rápidamente|que conozcan rápidamente la información de sus productos.|
@@ -72,6 +71,8 @@ Falta de punto de contacto entre personas que tienen un oficio, clientes y prove
 Ausencia de una Red Social de Oficios.
 
 - Ideación
+Una red social mediante Una web responsive.
+
 - Prototipo
 
 ![Sketch-1](assets/images/readme/sketch-1.png)
@@ -90,11 +91,11 @@ Markdown
 
 ### Documentación
 
-- [Planning](#planning) 
+- Planning
 
 Trello  [Planificación en trello]( https://trello.com/b/sJzBGeGU/red-social-de-oficios")
 
-- [Research] (#research)
+- Research
 
 Modelo Cuestionario de Entrevista Presencial a Electricista
   ![Preguntas](assets/images/readme/grupo-question-1.png "Entrevistando a Electricista")
@@ -134,9 +135,9 @@ Aptitus.com
 Computrabajo.com
 Laborum.com
 
-- [Versiones](#versiones)
+- Versiones
 
-## Feedback
+### Feedback
 - Comunicarse con el grupo a los emails señalados, todo feedback será bien recibido.
 
 
