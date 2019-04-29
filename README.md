@@ -39,7 +39,7 @@ Sección de calificaciones | Muestra las calificaciones recibidas y recomendacio
 
 https://yennyelizabeth.github.io/red-social/
 
-# Contribuidores
+## Contribuidores
 Equipo "Networking Girls"
 - Lara Aspilcueta, Betsy Dessire - betsy_dessire@hotmail.com
 - Quiñones Jauregui,Yenny Elizabeth - yenny.quinones.jauregui@gmail.com
@@ -47,14 +47,7 @@ Equipo "Networking Girls"
 
 ## Proceso
 
-### Tabla de Contenidos
- [Definición](#definición)
-#### [Resumen](#resumen)
-#### [Herramientas](#herramientas)
-#### [Documentación](#documentación)
-#### [Feedback](#feedback)
-
-#### Resumen
+### Resumen
 - Descubrimiento
 - Empatía
  
@@ -82,7 +75,7 @@ Ausencia de una Red Social de Oficios.
 
 - [Prueba](#prueba)
 
-#### Herramientas
+### Herramientas
 
 Css
 Javascript
@@ -91,7 +84,7 @@ Boostrap
 Html
 Markdown
 
-#### Documentación
+### Documentación
 
 - [Planning](#planning)
 
@@ -140,7 +133,7 @@ Laborum.com
 
 - [Versiones](#versiones)
 
-#### Feedback
+## Feedback
 - Comunicarse con el grupo a los emails señalados, todo feedback será bien recibido.
 
 
