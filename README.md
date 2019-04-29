@@ -1,22 +1,22 @@
-# Obchod
+## Obchod
 Nosotros somos una plataforma de red social de oficios. Si tienes un oficio que presentar y/ó buscas una persona que te preste un servicio, este es el lugar.
 
 ![innovando-lo-tradicional-1](https://user-images.githubusercontent.com/31896385/38058295-f6a57098-32a7-11e8-8758-59c3a8094aed.png)
 
-## Proyecto desarrollado en [Laboratoria](http://laboratoria.la)
+### Proyecto desarrollado en [Laboratoria](http://laboratoria.la)
 
-## En  [Peru](http://peru.com)
+### En  [Peru](http://peru.com)
 
-# Reto
+## Reto
 - Creación de una Red Social
 
-# Problema
+## Problema
 - Ausencia de una Red Social exclusiva para ofertar oficios, demandar servicios y anunciar productos relacionados.
 
 - ¿Encuentras fácilmente personas con oficio? ¿Si tienes un oficio, donde lo publicas?
 ![problema-obchod](https://user-images.githubusercontent.com/31896385/56874197-f1730480-69fd-11e9-9cc1-328806893e4d.png)
 
-# Solución
+## Solución
 
 - Red Social de Oficios: Obchod.
 
@@ -45,43 +45,44 @@ Equipo "Networking Girls"
 - Quiñones Jauregui,Yenny Elizabeth - yenny.quinones.jauregui@gmail.com
 - Yauri Machaca , Melissa Rossmery - yaurimelissa@gmail.com
 
-# Proceso
+## Proceso
 
-## Tabla de Contenidos
-### Resumen
-### Herramientas
-### Documentación
-### Feedback
+### Tabla de Contenidos
+ [Definición](#definición)
+#### [Resumen](#resumen)
+#### [Herramientas](#herramientas)
+#### [Documentación](#documentación)
+#### [Feedback](#feedback)
 
-### Resumen
-- [Descubrimiento](#descubrimiento)
-- [Empatía](#empatía)
+#### Resumen
+- Descubrimiento
+- Empatía
  
 Se han identificado la historia real de un electricita, y a través de entrevistas se han identificado sus necesidades.
 
-##### Historias:
+###### Historias:
  ![Inicio](assets/images/readme/historia-electricista.png)
  ![Inicio](assets/images/readme/historia-cliente.png)
  ![Inicio](assets/images/readme/historia-proveedor.png)
 
-##### Metas y Deseos ( electricista, cliente y proveedor)
+###### Metas y Deseos ( electricista, cliente y proveedor)
 Electricista |    Cliente   | Proveedor
 ------------ | -------------|--------------
 Aumentar contactos con clientes | visualizar perfiles|más clientes reducir el tiempo de contacto| recibir , calificar y recomendar un buen servicio| conocer los anuncios de los proveedores rápidamente|ubicar rápidamente|que conozcan rápidamente la información de sus productos.|
 
-- [Definición](#definición)
+- Definición
 Falta de punto de contacto entre personas que tienen un oficio, clientes y proveedores
 Ausencia de una Red Social de Oficios.
 
-- [Ideación](#ideación)
-- [Prototipo](#prototipo)
+- Ideación
+- Prototipo
 
 ![Sketch-1](assets/images/readme/sketch-1.png)
 ![Sketch-2](assets/images/readme/sketch-2.png)
 
 - [Prueba](#prueba)
 
-### Herramientas
+#### Herramientas
 
 Css
 Javascript
@@ -90,14 +91,14 @@ Boostrap
 Html
 Markdown
 
-### Documentación
+#### Documentación
 
 - [Planning](#planning)
 
 Trello
 * [Planificación en trello]( https://trello.com/b/sJzBGeGU/red-social-de-oficios")
 
-- [Research](#research)
+- Research
 
 Modelo Cuestionario de Entrevista Presencial a Electricista
   ![Preguntas](assets/images/readme/grupo-question-1.png "Entrevistando a Electricista")
@@ -139,7 +140,7 @@ Laborum.com
 
 - [Versiones](#versiones)
 
-### Feedback
+#### Feedback
 - Comunicarse con el grupo a los emails señalados, todo feedback será bien recibido.
 
 
