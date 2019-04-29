@@ -14,14 +14,18 @@ Nosotros somos una plataforma de red social de oficios. Si tienes un oficio que 
 - Ausencia de una Red Social exclusiva para ofertar oficios, demandar servicios y anunciar productos relacionados.
 
 - ¿Encuentras fácilmente personas con oficio? ¿Si tienes un oficio, donde lo publicas?
-![problema-obchod](https://user-images.githubusercontent.com/31896385/56874197-f1730480-69fd-11e9-9cc1-328806893e4d.png)
+<p align="center">
+<img alt="" title="" src="https://user-images.githubusercontent.com/31896385/56874197-f1730480-69fd-11e9-9cc1-328806893e4d.png" width="700">
+</p>
 
 ## Solución
 
 - Red Social de Oficios: Obchod.
 
 - Obchod!
-![31](https://user-images.githubusercontent.com/31896385/56873535-9d195600-69f8-11e9-8044-caa985c4b74d.png)
+<p align="center">
+<img alt="" title="" src="https://user-images.githubusercontent.com/31896385/56873535-9d195600-69f8-11e9-8044-caa985c4b74d.png" width="700">
+</p>
 
 - Obchod, es una Red Social, con accesibilidad vía web ( link gh-pages ) y mobile, que tiene la finalidad de facilitar los puntos de contactos entre: personas que tienen un oficio, clientes que solicitan  servicios y proveedores que ofertan sus productos relacionados.
 
@@ -86,12 +90,11 @@ Markdown
 
 ### Documentación
 
-- [Planning](#planning)
+- [Planning](#planning) 
 
-Trello
-* [Planificación en trello]( https://trello.com/b/sJzBGeGU/red-social-de-oficios")
+Trello  [Planificación en trello]( https://trello.com/b/sJzBGeGU/red-social-de-oficios")
 
-- Research
+- [Research] (#research)
 
 Modelo Cuestionario de Entrevista Presencial a Electricista
   ![Preguntas](assets/images/readme/grupo-question-1.png "Entrevistando a Electricista")
