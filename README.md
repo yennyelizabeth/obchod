@@ -46,7 +46,7 @@ https://yennyelizabeth.github.io/red-social/
 ## Contribuidores
 Equipo "Networking Girls"
 - Lara Aspilcueta, Betsy Dessire - betsy_dessire@hotmail.com
-- Quiñones Jauregui,Yenny Elizabeth - yenny.quinones.jauregui@gmail.com
+- Yenny Elizabeth  
 - Yauri Machaca , Melissa Rossmery - yaurimelissa@gmail.com
 
 ## Proceso
